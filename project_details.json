@@ -1,0 +1,28 @@
+{
+    "details": [
+        {
+            "Projektnummer": "10138",
+            "Kontaktperson": "Ludvig de Verdier",
+			"Anläggning": "Barkarby"
+        },
+        {
+            "Projektnummer": "113777",
+            "Kontaktperson": "Ludvig de Verdier",
+			"Anläggning": "Barkarby"
+        },
+        {
+            "Projektnummer": "116242",
+            "Kontaktperson": "Ludvig de Verdier"
+        },
+		{
+            "Projektnummer": "332154",
+            "Kontaktperson": "David Collin",
+            "E-post": "david.collin@csprojekt.se",
+			"Anläggning": "Nya Huvudsta"
+        },
+        {
+            "Projektnummer": "W10003",
+            "Kontaktperson": "Ludvig de Verdier"
+        }
+    ]
+}

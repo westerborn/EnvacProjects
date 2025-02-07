@@ -1,0 +1,4796 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "Projektnummer": "W10003",
+            "Projektnamn": "Warranty project Sorting",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "2",
+            "Projektnummer": "W10002",
+            "Projektnamn": "Warranty project East",
+            "Kund": "",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "3",
+            "Projektnummer": "W10001",
+            "Projektnamn": "Warranty project West",
+            "Kund": "",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "4",
+            "Projektnummer": "U400",
+            "Projektnamn": "Mindre C2:or (uppsamlingsproj)",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "5",
+            "Projektnummer": "U397",
+            "Projektnamn": "Bags handling STR and Envac sy",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "6",
+            "Projektnummer": "U396",
+            "Projektnamn": "Vac. waste sy.Sth no compr sir",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "7",
+            "Projektnummer": "U395",
+            "Projektnamn": "VBI Norge Wall mounted",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "8",
+            "Projektnummer": "U394",
+            "Projektnamn": "VBI Norge Free standing",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "9",
+            "Projektnummer": "U393",
+            "Projektnamn": "SCT Skruvtanksutv Modul 2024",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "10",
+            "Projektnummer": "U392",
+            "Projektnamn": "Utv Skruvtank 2,0 m skrapan",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "11",
+            "Projektnummer": "U391",
+            "Projektnamn": "spruckna böjar Älvsjö 2024",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "12",
+            "Projektnummer": "U390",
+            "Projektnamn": "CE-dokumentation produkter HK",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "13",
+            "Projektnummer": "U389",
+            "Projektnamn": "Utbyte/uppdater. Envac luckor",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "14",
+            "Projektnummer": "U387",
+            "Projektnamn": "LCA rapport hållbarhet",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "15",
+            "Projektnummer": "U386",
+            "Projektnamn": "ReFlow Global arbetstid Klas",
+            "Kund": "Envac AB",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "16",
+            "Projektnummer": "U385",
+            "Projektnamn": "Matavfallstankar",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "17",
+            "Projektnummer": "U384",
+            "Projektnamn": "Lokal Stockholm",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "18",
+            "Projektnummer": "U383",
+            "Projektnamn": "LCM steg1 Lifecycle management",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "19",
+            "Projektnummer": "U380",
+            "Projektnamn": "Kontroll utleverans produkter",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "20",
+            "Projektnummer": "U379",
+            "Projektnamn": "Nytt ERP (4PS)",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "21",
+            "Projektnummer": "U378",
+            "Projektnamn": "Förstudie Kabelgenomföring PN4",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "22",
+            "Projektnummer": "U377",
+            "Projektnamn": "Windshifter Limburg",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "23",
+            "Projektnummer": "U374",
+            "Projektnamn": "Sustainability /QMS-Envac AB",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "24",
+            "Projektnummer": "U373",
+            "Projektnamn": "Bergen Line reklamation",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "25",
+            "Projektnummer": "U371",
+            "Projektnamn": "Process äldre anlägg. del 2",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "26",
+            "Projektnummer": "U370",
+            "Projektnamn": "Reflow modifiera Papper/inkast",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "27",
+            "Projektnummer": "U367",
+            "Projektnamn": "Test av spanska luckan självst",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "28",
+            "Projektnummer": "U366",
+            "Projektnamn": "Smarta Nivåer MVS",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "29",
+            "Projektnummer": "U363",
+            "Projektnamn": "Färg läsning av genomskinlig",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "30",
+            "Projektnummer": "U361",
+            "Projektnamn": "Test av 60l soppåsar",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "31",
+            "Projektnummer": "U360",
+            "Projektnamn": "Testmaskin avslagare i Mjölby",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "32",
+            "Projektnummer": "U356",
+            "Projektnamn": "Ny leverantör Bergen Line",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "33",
+            "Projektnummer": "U353",
+            "Projektnamn": "Utredning MINI-G filter Lugnet",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "34",
+            "Projektnummer": "U351",
+            "Projektnamn": "Täby inkast utveckling",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "35",
+            "Projektnummer": "U349",
+            "Projektnamn": "Ytbehandling produkter",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "36",
+            "Projektnummer": "U347",
+            "Projektnamn": "Klimatneutrala Stora Sköndal",
+            "Kund": "Envac AB",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "37",
+            "Projektnummer": "U344",
+            "Projektnamn": "Sömnlösa schaktrör",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "38",
+            "Projektnummer": "U343",
+            "Projektnamn": "Uppd tankar prog frekvensomfor",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "39",
+            "Projektnummer": "U338",
+            "Projektnamn": "Utv Rfr Lucka m brandklassnin",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "40",
+            "Projektnummer": "U337",
+            "Projektnamn": "Utv o garanti Hybridtank Solst",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "41",
+            "Projektnummer": "U330",
+            "Projektnamn": "Miljöbedömning produkter",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "42",
+            "Projektnummer": "U329",
+            "Projektnamn": "Montagehandboken",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "43",
+            "Projektnummer": "U327-1",
+            "Projektnamn": "Spricka böj Södra Centrum 2",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "44",
+            "Projektnummer": "U327",
+            "Projektnamn": "Garantier spricka böj Södra C",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "45",
+            "Projektnummer": "U326",
+            "Projektnamn": "Envac hatch 2.0",
+            "Kund": "Envac AB",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "46",
+            "Projektnummer": "U318",
+            "Projektnamn": "Kvalitetsledning löpande",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "47",
+            "Projektnummer": "U316",
+            "Projektnamn": "Produktdesign LCA/LCC",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "48",
+            "Projektnummer": "U311",
+            "Projektnamn": "Inkast volymbegränsning basic",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "49",
+            "Projektnummer": "U300",
+            "Projektnamn": "Revit",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "50",
+            "Projektnummer": "U297",
+            "Projektnamn": "Diverse Utveckling Teknik",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "51",
+            "Projektnummer": "U295",
+            "Projektnamn": "SCT SVS Skruvtanksutveckling",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "52",
+            "Projektnummer": "P10202",
+            "Projektnamn": "Backaplan",
+            "Kund": "",
+            "Projektledare": "John Seiger",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "53",
+            "Projektnummer": "P10201",
+            "Projektnamn": "Schieveste Avbokningsprojekt",
+            "Kund": "",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "54",
+            "Projektnummer": "P10200",
+            "Projektnamn": "Schieveste Main",
+            "Kund": "",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Estimation"
+        },
+        {
+            "id": "55",
+            "Projektnummer": "P10199",
+            "Projektnamn": "Kista ReFlow 2025-2028",
+            "Kund": "Kista Sopsug Samfällighetsförening",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "56",
+            "Projektnummer": "P10198",
+            "Projektnamn": "Kv.L Slakthusområdet",
+            "Kund": "",
+            "Projektledare": "Olliwer Lettfält",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "57",
+            "Projektnummer": "P10197",
+            "Projektnamn": "Kv. Tjuren Ursvik",
+            "Kund": "",
+            "Projektledare": "John Seiger",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "58",
+            "Projektnummer": "P10196",
+            "Projektnamn": "Minneberg Terminal uppgradering",
+            "Kund": "",
+            "Projektledare": "Olliwer Lettfält",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "59",
+            "Projektnummer": "P10195",
+            "Projektnamn": "Tegelbacken Rissneleden",
+            "Kund": "",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "60",
+            "Projektnummer": "P10194",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "61",
+            "Projektnummer": "P10193",
+            "Projektnamn": "Skövde Science City - Magasingatan",
+            "Kund": "",
+            "Projektledare": "John Seiger",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "62",
+            "Projektnummer": "P10192",
+            "Projektnamn": "Högsbo Sjukhus Säkerhetsgrind",
+            "Kund": "Skanska Sverige AB",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "63",
+            "Projektnummer": "P10191",
+            "Projektnamn": "Pilgrimsvägen 62-64",
+            "Kund": "AB Stockholmshem",
+            "Projektledare": "Stefan Nordin",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "64",
+            "Projektnummer": "P10190",
+            "Projektnamn": "Minneberg Matavfall",
+            "Kund": "",
+            "Projektledare": "Olliwer Lettfält",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "65",
+            "Projektnummer": "P10189",
+            "Projektnamn": "Smedjan 1 Ursvik",
+            "Kund": "",
+            "Projektledare": "John Seiger",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "66",
+            "Projektnummer": "P10188",
+            "Projektnamn": "Smedshagen Option Mark & Schaktarbete",
+            "Kund": "Hässelby Hem AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "67",
+            "Projektnummer": "P10187",
+            "Projektnamn": "Smedshagen Styrsystem",
+            "Kund": "Hässelby Hem AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "68",
+            "Projektnummer": "P10186",
+            "Projektnamn": "Smedshagen ET-D, Utbyte av huvudledning",
+            "Kund": "Hässelby Hem AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "69",
+            "Projektnummer": "P10185",
+            "Projektnamn": "Smedshagen ET-B, Utbyte av huvudledning",
+            "Kund": "Hässelby Hem AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "70",
+            "Projektnummer": "P10184",
+            "Projektnamn": "Smedshagen ET-A, Utbyte av huvudledning",
+            "Kund": "Hässelby Hem AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "71",
+            "Projektnummer": "P10183",
+            "Projektnamn": "Smedshagen Main, Utbyte av huvudledning ",
+            "Kund": "Hässelby Hem AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Estimation"
+        },
+        {
+            "id": "72",
+            "Projektnummer": "P10182",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "73",
+            "Projektnummer": "P10181",
+            "Projektnamn": "Torslanda.com",
+            "Kund": "",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "74",
+            "Projektnummer": "P10180",
+            "Projektnamn": "Smedshagen ET-C, Utbyte av huvudledning",
+            "Kund": "Hässelby Hem AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "75",
+            "Projektnummer": "P10179",
+            "Projektnamn": "Support time LG Norway",
+            "Kund": "Envac Norge AS",
+            "Projektledare": "Lars-Göran Andersson",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "76",
+            "Projektnummer": "P10178",
+            "Projektnamn": "High Note Almere 2",
+            "Kund": "Centralned BV",
+            "Projektledare": "Tobias Lindberg",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "77",
+            "Projektnummer": "P10177",
+            "Projektnamn": "Kylfacket 3 DE25 Sopsug",
+            "Kund": "Atrium Ljungberg Hallvägen AB",
+            "Projektledare": "Stefan Jansson",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "78",
+            "Projektnummer": "P10176",
+            "Projektnamn": "Humlegården Södra Hagalund",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "79",
+            "Projektnummer": "P10175",
+            "Projektnamn": "Södra Hagalund",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "80",
+            "Projektnummer": "P10174",
+            "Projektnamn": "Uppgradering rör Haga",
+            "Kund": "Sopsug i Haga Samfällighetsförening",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "81",
+            "Projektnummer": "P10173",
+            "Projektnamn": "Byte rör Styrfarten Eriksberg",
+            "Kund": "Eriksbergs Samfällighets Förening",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "82",
+            "Projektnummer": "P10172",
+            "Projektnamn": "Plast container Eriksberg",
+            "Kund": "Eriksbergs Samfällighets Förening",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "83",
+            "Projektnummer": "P10171",
+            "Projektnamn": "Patille Port Kv 1",
+            "Kund": "Peab Sverige AB",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "84",
+            "Projektnummer": "P10170",
+            "Projektnamn": "E-410 Södra Värtan Norra rör",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "85",
+            "Projektnummer": "P10169",
+            "Projektnamn": "Gillet Eskilstuna",
+            "Kund": "",
+            "Projektledare": "John Seiger",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "86",
+            "Projektnummer": "P10168",
+            "Projektnamn": "ESEM Utbyggnad sorting",
+            "Kund": "",
+            "Projektledare": "John Seiger",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "87",
+            "Projektnummer": "P10167",
+            "Projektnamn": "Nydala Investering 2025-2026",
+            "Kund": "RB Brf Malmöhus 11",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "88",
+            "Projektnummer": "P10166",
+            "Projektnamn": "Smedshagen rörbyte huvudledning",
+            "Kund": "",
+            "Projektledare": "Olliwer Lettfält",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "89",
+            "Projektnummer": "P10165",
+            "Projektnamn": "Uppgradering rör på Bredfjällsgatan ",
+            "Kund": "B430 Göteborgs Stads Bostads AB",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "90",
+            "Projektnummer": "P10164",
+            "Projektnamn": "SÖS, byte bandmatta tvätt",
+            "Kund": "Lassila & Tikanoja FM AB",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "91",
+            "Projektnummer": "P10163",
+            "Projektnamn": "Lugnet, fraktionsbyte papper till plast",
+            "Kund": "Sjöstadens Östra Sopsug Samfällighetsför",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "92",
+            "Projektnummer": "P10162",
+            "Projektnamn": "Gjutmästaren, Bälllsta Hamn",
+            "Kund": "",
+            "Projektledare": "John Seiger",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "93",
+            "Projektnummer": "P10161",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "94",
+            "Projektnummer": "P10160",
+            "Projektnamn": "Högalid, Akutbyte rörböj.",
+            "Kund": "Sopsug i Högalid Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "95",
+            "Projektnummer": "P10159",
+            "Projektnamn": "HUA, Akalla etapp 3",
+            "Kund": "Samfällighetsför.  Sopsug i Husby-Akalla",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "96",
+            "Projektnummer": "P10158",
+            "Projektnamn": "Uppgradering Smyckeparken",
+            "Kund": "Stena Fastigh Smyckeparken AB",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "97",
+            "Projektnummer": "P10157",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "98",
+            "Projektnummer": "P10156",
+            "Projektnamn": "Alingsås Sjukhus kärltvätt ",
+            "Kund": "Peab Byggservice",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "99",
+            "Projektnummer": "P10155",
+            "Projektnamn": "Mandelblomman täby park 5:3 ",
+            "Kund": "",
+            "Projektledare": "John Seiger",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "100",
+            "Projektnummer": "P10154",
+            "Projektnamn": "Huddinge C, uppgradering EAP",
+            "Kund": "Huge Bostäder AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "101",
+            "Projektnummer": "P10153",
+            "Projektnamn": "Ny terminal Bergshamra",
+            "Kund": "",
+            "Projektledare": "Olliwer Lettfält",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "102",
+            "Projektnummer": "P10152",
+            "Projektnamn": "Capella byte luckor 4 st",
+            "Kund": "Hemsö Lindholmen AB",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "103",
+            "Projektnummer": "P10151",
+            "Projektnamn": "Hagalund, ombyggnad tankar & nedkast.",
+            "Kund": "Bostadsstiftelsen Signalisten i Solna",
+            "Projektledare": "Stefan Nordin",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "104",
+            "Projektnummer": "P10150",
+            "Projektnamn": "Karlstad Sjukhus – Apparatskåp för befintliga ventilrum",
+            "Kund": "Landstinget I Värmland",
+            "Projektledare": "Joacim Rydbeck",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "105",
+            "Projektnummer": "P10149",
+            "Projektnamn": "Kista, rörbyte Ärvingegången",
+            "Kund": "Kista Sopsug Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "106",
+            "Projektnummer": "P10148",
+            "Projektnamn": "Kristinebergs slott kv 3",
+            "Kund": "",
+            "Projektledare": "Olliwer Lettfält",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "107",
+            "Projektnummer": "P10147",
+            "Projektnamn": "Rågsved, installation vent. fläkt terminal",
+            "Kund": "Sopsug i Rågsved Samfällighetsförening",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "108",
+            "Projektnummer": "P10146",
+            "Projektnamn": "Rågsved, byte mjukstart 2",
+            "Kund": "Sopsug i Rågsved Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "109",
+            "Projektnummer": "P10145",
+            "Projektnamn": "Persikan 1B",
+            "Kund": "",
+            "Projektledare": "Olliwer Lettfält",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "110",
+            "Projektnummer": "P10144",
+            "Projektnamn": "Motol Hospital Modernization",
+            "Kund": "",
+            "Projektledare": "Olliwer Lettfält",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "111",
+            "Projektnummer": "P10143",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "112",
+            "Projektnummer": "P10142",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "113",
+            "Projektnummer": "P10141",
+            "Projektnamn": "Södra Brunna uppdatering",
+            "Kund": "",
+            "Projektledare": "Olliwer Lettfält",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "114",
+            "Projektnummer": "P10140",
+            "Projektnamn": "Motol Hospital Onkology Center",
+            "Kund": "",
+            "Projektledare": "Olliwer Lettfält",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "115",
+            "Projektnummer": "P10139",
+            "Projektnamn": "HUA, Lofoteng 15, rörböjslagning",
+            "Kund": "Samfällighetsför.  Sopsug i Husby-Akalla",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "116",
+            "Projektnummer": "P10138",
+            "Projektnamn": "HUA, Nidarosg. 6, manuell SE-brunn",
+            "Kund": "Samfällighetsför.  Sopsug i Husby-Akalla",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "117",
+            "Projektnummer": "P10137",
+            "Projektnamn": "Södra Värtan, montage o renovering av temp terminal",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "118",
+            "Projektnummer": "P10136",
+            "Projektnamn": "Rissne XXXX",
+            "Kund": "Dammarsberg Entreprenad Aktiebolag",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "119",
+            "Projektnummer": "P10135",
+            "Projektnamn": "Högalid, byte sopventiler x 2",
+            "Kund": "Sopsug i Högalid Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "120",
+            "Projektnummer": "P10134",
+            "Projektnamn": "Limburg, Strict / Not strict",
+            "Kund": "BIOSTOOM BERINGEN N.V.",
+            "Projektledare": "Mårten Sonnerup",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "121",
+            "Projektnummer": "P10133",
+            "Projektnamn": "Limburg, Green Bag back-up improvement",
+            "Kund": "BIOSTOOM BERINGEN N.V.",
+            "Projektledare": "Mårten Sonnerup",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "122",
+            "Projektnummer": "P10132",
+            "Projektnamn": "Högalid, Rörbyte Lignagatan",
+            "Kund": "Sopsug i Högalid Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "123",
+            "Projektnummer": "P10131",
+            "Projektnamn": "HUA, Nidarosg. 2, manuell SE-brunn",
+            "Kund": "Samfällighetsför.  Sopsug i Husby-Akalla",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "124",
+            "Projektnummer": "P10130",
+            "Projektnamn": "Support Norway - Automation department Sweden",
+            "Kund": "Envac Norge AS",
+            "Projektledare": "Joacim Rydbeck",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "125",
+            "Projektnummer": "P10129",
+            "Projektnamn": "Brunnshög",
+            "Kund": "",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Estimation"
+        },
+        {
+            "id": "126",
+            "Projektnummer": "P10128",
+            "Projektnamn": "Brunnshög SE1",
+            "Kund": "Lunds kommun",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "127",
+            "Projektnummer": "P10127",
+            "Projektnamn": "De Korte Promenade Almere 2",
+            "Kund": "Centralned BV",
+            "Projektledare": "Tobias Lindberg",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "128",
+            "Projektnummer": "P10126",
+            "Projektnamn": "Kv Gårdshuset Ursvik",
+            "Kund": "",
+            "Projektledare": "Stefan Jansson",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "129",
+            "Projektnummer": "P10125",
+            "Projektnamn": "ReFlow Norra Hammarby 2025-2028",
+            "Kund": "Sopsug Hammarby Samfällighetsförening",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "130",
+            "Projektnummer": "P10124",
+            "Projektnamn": "EAP Norra Hammarby 2025-2028",
+            "Kund": "Sopsug Hammarby Samfällighetsförening",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "131",
+            "Projektnummer": "P10123",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "132",
+            "Projektnummer": "P10122",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "133",
+            "Projektnummer": "P10121",
+            "Projektnamn": "Schieveste Peperklip South block",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "134",
+            "Projektnummer": "P10120",
+            "Projektnamn": "Schieveste Peperklip North block",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "135",
+            "Projektnummer": "P10119",
+            "Projektnamn": "Reflow Lindholmen Licensavtal",
+            "Kund": "Lindholmens Sopsug Samfällighet",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "136",
+            "Projektnummer": "P10118",
+            "Projektnamn": "Schieveste building A1",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "137",
+            "Projektnummer": "P10117",
+            "Projektnamn": "Tyresö C, flytt av terminal",
+            "Kund": "Tyresö kommun",
+            "Projektledare": "Olliwer Lettfält",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "138",
+            "Projektnummer": "P10116",
+            "Projektnamn": "Rågsved Investering rör 2024-2027",
+            "Kund": "Sopsug i Rågsved Samfällighetsförening",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "139",
+            "Projektnummer": "P10115",
+            "Projektnamn": "Smart Oslo Test av Utsortering av gasflaskor",
+            "Kund": "Renovasjons- og gjenvinningsetaten",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "140",
+            "Projektnummer": "P10114",
+            "Projektnamn": "Huddinge C, Rörbyte inne i terminal",
+            "Kund": "Huge Bostäder AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "141",
+            "Projektnummer": "P10113",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "142",
+            "Projektnummer": "P10112",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "143",
+            "Projektnummer": "P10111",
+            "Projektnamn": "SÖS, nytt modulband tvätt",
+            "Kund": "Lassila & Tikanoja FM AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "144",
+            "Projektnummer": "P10110",
+            "Projektnamn": "Rågsved, byte mjukstart 1",
+            "Kund": "Sopsug i Rågsved Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "145",
+            "Projektnummer": "P10109",
+            "Projektnamn": "Avledning vatten Skidbacken gren 9 ",
+            "Kund": "Fastighets AB Förvaltaren",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "146",
+            "Projektnummer": "P10108",
+            "Projektnamn": "Skärholmen, Rörbyte Äspholmsvägen",
+            "Kund": "Stockholmshem i Skärholmen AB",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "147",
+            "Projektnummer": "P10107",
+            "Projektnamn": "Högalid, Ny cyklon + roterare",
+            "Kund": "Sopsug i Högalid Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "148",
+            "Projektnummer": "P10106",
+            "Projektnamn": "Hamnvakten 7",
+            "Kund": "Itinera",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "149",
+            "Projektnummer": "P10105",
+            "Projektnamn": "Kuddbygränd",
+            "Kund": "AB Familjebostäder",
+            "Projektledare": "Stefan Nordin",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "150",
+            "Projektnummer": "P10104",
+            "Projektnamn": "SÖS, fläkthjul",
+            "Kund": "Lassila & Tikanoja FM AB",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "151",
+            "Projektnummer": "P10103",
+            "Projektnamn": "Support time TOSA",
+            "Kund": "Envac Danmark A/S",
+            "Projektledare": "Torbjörn Sallander",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "152",
+            "Projektnummer": "P10102",
+            "Projektnamn": "Support time LG Denmark",
+            "Kund": "Envac Danmark A/S",
+            "Projektledare": "Lars-Göran Andersson",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "153",
+            "Projektnummer": "P10101",
+            "Projektnamn": "Timmar Norge Kurt",
+            "Kund": "Envac Norge AS",
+            "Projektledare": "Kurt Bergström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "154",
+            "Projektnummer": "P10100",
+            "Projektnamn": "Försäljning timmar Henrik Reutgard Norge",
+            "Kund": "Envac Norge AS",
+            "Projektledare": "Henrik Reutgard",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "155",
+            "Projektnummer": "P10099",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "156",
+            "Projektnummer": "P10098",
+            "Projektnamn": "Skärholmen, rörbyte Äspholmsvägen",
+            "Kund": "AB Stockholmshem",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "157",
+            "Projektnummer": "P10097",
+            "Projektnamn": "NMK Tubingen",
+            "Kund": "",
+            "Projektledare": "Kurt Bergström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "158",
+            "Projektnummer": "P10096",
+            "Projektnamn": "Sigfridsvägen",
+            "Kund": "AB Stockholmshem",
+            "Projektledare": "Stefan Nordin",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "159",
+            "Projektnummer": "P10095",
+            "Projektnamn": "4059 VL3 Bergen",
+            "Kund": "DISAB Vacuum Technology AB",
+            "Projektledare": "Henrik Reutgard",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "160",
+            "Projektnummer": "P10094",
+            "Projektnamn": "Hinderstorpsgränd",
+            "Kund": "AB Familjebostäder",
+            "Projektledare": "Stefan Nordin",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "161",
+            "Projektnummer": "P10093",
+            "Projektnamn": "Brunnshög Portkvarteren 2",
+            "Kund": "Lunds kommun",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "162",
+            "Projektnummer": "P10092",
+            "Projektnamn": "Brunnshög Portkvarteren 1",
+            "Kund": "Lunds kommun",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "163",
+            "Projektnummer": "P10091",
+            "Projektnamn": "Kv Doktoranden Ursvik",
+            "Kund": "Klövern Sundbyberg Doktoranden 1 AB",
+            "Projektledare": "Stefan Jansson",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "164",
+            "Projektnummer": "P10090",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "165",
+            "Projektnummer": "P10089",
+            "Projektnamn": "Brunnsbo Uppgradering 2024",
+            "Kund": "B430 Göteborgs Stads Bostads AB",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "166",
+            "Projektnummer": "P10088",
+            "Projektnamn": "Sigfridsvägen 2",
+            "Kund": "AB Stockholmshem",
+            "Projektledare": "Stefan Nordin",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "167",
+            "Projektnummer": "P10087",
+            "Projektnamn": "Wieselgrensplatsen",
+            "Kund": "",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "168",
+            "Projektnummer": "P10086",
+            "Projektnamn": "Lilla Dimun Kista Äng",
+            "Kund": "",
+            "Projektledare": "John Seiger",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "169",
+            "Projektnummer": "P10085",
+            "Projektnamn": " Norumshöjd uppgradering 2024",
+            "Kund": "B430 Göteborgs Stads Bostads AB",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "170",
+            "Projektnummer": "P10084",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "171",
+            "Projektnummer": "P10083",
+            "Projektnamn": "Schieveste",
+            "Kund": "",
+            "Projektledare": "John Seiger",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "172",
+            "Projektnummer": "P10082",
+            "Projektnamn": "Gällstadgården",
+            "Kund": "",
+            "Projektledare": "Magnus Sjöstrand",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "173",
+            "Projektnummer": "P10081",
+            "Projektnamn": "Silverskopan 3",
+            "Kund": "",
+            "Projektledare": "Olliwer Lettfält",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "174",
+            "Projektnummer": "P10080",
+            "Projektnamn": "Support time RoMa Finland",
+            "Kund": "Envac Finland OY",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "175",
+            "Projektnummer": "P10079",
+            "Projektnamn": "Motol Hospital",
+            "Kund": "PORR a.s.",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "176",
+            "Projektnummer": "P10078",
+            "Projektnamn": "Kv Silvia Huvudsta",
+            "Kund": "",
+            "Projektledare": "John Seiger",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "177",
+            "Projektnummer": "P10077",
+            "Projektnamn": "SÖS Renovering Hus 17-18  ",
+            "Kund": "",
+            "Projektledare": "Magnus Sjöstrand",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "178",
+            "Projektnummer": "P10076",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "179",
+            "Projektnummer": "P10075",
+            "Projektnamn": "FRAH selling hours to NO",
+            "Kund": "Envac Norge AS",
+            "Projektledare": "Fredrik Ahlén",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "180",
+            "Projektnummer": "P10074",
+            "Projektnamn": "Ryttershov ÄBO",
+            "Kund": "Erik Larsson Bygg AB",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "181",
+            "Projektnummer": "P10073",
+            "Projektnamn": "PDV byte Hammarby gård nr 2 ",
+            "Kund": "Sjöstaden Västra Sopsug Samfällighetsför",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "182",
+            "Projektnummer": "P10072",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "183",
+            "Projektnummer": "P10071",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "184",
+            "Projektnummer": "P10070",
+            "Projektnamn": "Sandbäck tågdepå",
+            "Kund": "",
+            "Projektledare": "Magnus Sjöstrand",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "185",
+            "Projektnummer": "P10069",
+            "Projektnamn": "Kv Smedjan 1 - Ursvik",
+            "Kund": "",
+            "Projektledare": "Tobias Lindberg",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "186",
+            "Projektnummer": "P10068",
+            "Projektnamn": "EAP Licensavtal Lindholmen ",
+            "Kund": "Lindholmens Sopsug Samfällighet",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "187",
+            "Projektnummer": "P10067",
+            "Projektnamn": "Portkvarteren",
+            "Kund": "Infrakraft Malmö AB",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "188",
+            "Projektnummer": "P10066",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "189",
+            "Projektnummer": "P10065",
+            "Projektnamn": "rågsved, Ny Brunn ",
+            "Kund": "Sopsug i Rågsved Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "190",
+            "Projektnummer": "P10064",
+            "Projektnamn": "Kv Muttern 11",
+            "Kund": "Zengun Redo AB",
+            "Projektledare": "Håkan Larsson",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "191",
+            "Projektnummer": "P10063",
+            "Projektnamn": "24019 Renovera Lamelltrp TVAB",
+            "Kund": "Tekniska Verken i Linköping AB (publ)",
+            "Projektledare": "Håkan Larsson",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "192",
+            "Projektnummer": "P10062",
+            "Projektnamn": "Kongahälla Kv10",
+            "Kund": "JM AB",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "193",
+            "Projektnummer": "P10061",
+            "Projektnamn": "Inventory management - Supply Chain",
+            "Kund": "",
+            "Projektledare": "Hanna Snaar",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "194",
+            "Projektnummer": "P10060",
+            "Projektnamn": "Stora Sköndal",
+            "Kund": "",
+            "Projektledare": "Olliwer Lettfält",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "195",
+            "Projektnummer": "P10059",
+            "Projektnamn": "Gävle Sjukhus H60",
+            "Kund": "NCC Sverige AB",
+            "Projektledare": "Kurt Bergström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "196",
+            "Projektnummer": "P10058",
+            "Projektnamn": "Bagartorps Centrum",
+            "Kund": "",
+            "Projektledare": "John Seiger",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "197",
+            "Projektnummer": "P10057",
+            "Projektnamn": "Kv Urnan",
+            "Kund": "Fors Fastigheter",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "198",
+            "Projektnummer": "P10056",
+            "Projektnamn": "Victoriagården",
+            "Kund": "Peab Sverige AB",
+            "Projektledare": "Kurt Bergström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "199",
+            "Projektnummer": "P10055",
+            "Projektnamn": "CSK DP4 Akuthus",
+            "Kund": "Skanska Sverige AB",
+            "Projektledare": "Kurt Bergström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "200",
+            "Projektnummer": "P10054",
+            "Projektnamn": "Sollefteå Projektering",
+            "Kund": "Region Västernorrland",
+            "Projektledare": "Tobias Lindberg",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "201",
+            "Projektnummer": "P10053",
+            "Projektnamn": "Kastvindsgatan 2",
+            "Kund": "",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "202",
+            "Projektnummer": "P10052",
+            "Projektnamn": "IPAI Heilbronn Projektering",
+            "Kund": "IPAI Immobilienmanagement GmbH & Co. KG",
+            "Projektledare": "Tobias Lindberg",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "203",
+            "Projektnummer": "P10051",
+            "Projektnamn": "Rissneleden HUS A",
+            "Kund": "",
+            "Projektledare": "John Seiger",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "204",
+            "Projektnummer": "P10050",
+            "Projektnamn": "Rissneleden HUS B",
+            "Kund": "",
+            "Projektledare": "John Seiger",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "205",
+            "Projektnummer": "P10049",
+            "Projektnamn": "Kv Yrket 3",
+            "Kund": "",
+            "Projektledare": "John Seiger",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "206",
+            "Projektnummer": "P10048",
+            "Projektnamn": "Support time Dag C Finland",
+            "Kund": "Envac Finland OY",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "207",
+            "Projektnummer": "P10047",
+            "Projektnamn": "Support time Dag C Norway",
+            "Kund": "Envac Norge AS",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "208",
+            "Projektnummer": "P10046",
+            "Projektnamn": "Support time Dag C Denmark",
+            "Kund": "Envac Danmark A/S",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "209",
+            "Projektnummer": "P10045",
+            "Projektnamn": "Partille Port Kv 3 Simbo",
+            "Kund": "Peab Sverige AB",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "210",
+            "Projektnummer": "P10044",
+            "Projektnamn": "Hourly Invoicing UK- Supply Chain",
+            "Kund": "Envac UK Ltd",
+            "Projektledare": "Hanna Snaar",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "211",
+            "Projektnummer": "P10043",
+            "Projektnamn": "4058 Odense MVS Truck",
+            "Kund": "DISAB Vacuum Technology AB",
+            "Projektledare": "Henrik Reutgard",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "212",
+            "Projektnummer": "P10042",
+            "Projektnamn": "Hourly Invoicing Finland- Supply Chain",
+            "Kund": "Envac Finland OY",
+            "Projektledare": "Hanna Snaar",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "213",
+            "Projektnummer": "P10041",
+            "Projektnamn": "Hourly invoicing Denmark - Supply chain",
+            "Kund": "Envac Danmark A/S",
+            "Projektledare": "Hanna Snaar",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "214",
+            "Projektnummer": "P10040",
+            "Projektnamn": "Hourly invoicing Norway - Supply chain",
+            "Kund": "Envac Norge AS",
+            "Projektledare": "Hanna Snaar",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "215",
+            "Projektnummer": "P10039",
+            "Projektnamn": "",
+            "Kund": "Envac Norge AS",
+            "Projektledare": "Hanna Snaar",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "216",
+            "Projektnummer": "P10038",
+            "Projektnamn": "Utdelning Gröna Påsen i Stockholm",
+            "Kund": "Stockholm Avfall AB",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "217",
+            "Projektnummer": "P10037",
+            "Projektnamn": "Avledning vatten Skidbacken ",
+            "Kund": "Fastighets AB Förvaltaren",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "218",
+            "Projektnummer": "P10036",
+            "Projektnamn": "avledning av vatten ventilrum",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "219",
+            "Projektnummer": "P10035",
+            "Projektnamn": "Eriksberg byte styrkort slinga AV 5-23",
+            "Kund": "Eriksbergs Samfällighets Förening",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "220",
+            "Projektnummer": "P10034",
+            "Projektnamn": "Support Envac Head Office - Automation department Sweden",
+            "Kund": "Envac AB",
+            "Projektledare": "Joacim Rydbeck",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "221",
+            "Projektnummer": "P10033",
+            "Projektnamn": "Support Denmark - Automation department Sweden",
+            "Kund": "Envac Danmark A/S",
+            "Projektledare": "Joacim Rydbeck",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "222",
+            "Projektnummer": "P10032",
+            "Projektnamn": "Support UK - Automation department Sweden",
+            "Kund": "Envac UK Ltd",
+            "Projektledare": "Joacim Rydbeck",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "223",
+            "Projektnummer": "P10031",
+            "Projektnamn": "Vegastaden Slinga 1",
+            "Kund": "Vegastadens Sopsug Samfällighet",
+            "Projektledare": "Tobias Lindberg",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "224",
+            "Projektnummer": "P10030",
+            "Projektnamn": "Support time TOLI Finland",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "225",
+            "Projektnummer": "P10029",
+            "Projektnamn": "Support time TOLI Denmark",
+            "Kund": "Envac Danmark A/S",
+            "Projektledare": "Tobias Lindberg",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "226",
+            "Projektnummer": "P10028",
+            "Projektnamn": "Support time TOLI UK",
+            "Kund": "Envac UK Ltd",
+            "Projektledare": "Tobias Lindberg",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "227",
+            "Projektnummer": "P10027",
+            "Projektnamn": "Support time TOLI Norway",
+            "Kund": "Envac Norge AS",
+            "Projektledare": "Tobias Lindberg",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "228",
+            "Projektnummer": "P10026",
+            "Projektnamn": "Support time TOLI Finland",
+            "Kund": "Envac Finland OY",
+            "Projektledare": "Tobias Lindberg",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "229",
+            "Projektnummer": "P10025",
+            "Projektnamn": "",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "230",
+            "Projektnummer": "P10024",
+            "Projektnamn": "Support Finland - Automation department Sweden",
+            "Kund": "Envac Finland OY",
+            "Projektledare": "Joacim Rydbeck",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "231",
+            "Projektnummer": "P10023",
+            "Projektnamn": "Försäljning timmar MALU Danmark",
+            "Kund": "Envac Danmark A/S",
+            "Projektledare": "Magnus Lundström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "232",
+            "Projektnummer": "P10022",
+            "Projektnamn": "Försäljning timmar MALU Finland",
+            "Kund": "Envac Finland OY",
+            "Projektledare": "Magnus Lundström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "233",
+            "Projektnummer": "P10021",
+            "Projektnamn": "Ånn 7 - Årsta",
+            "Kund": "",
+            "Projektledare": "Olliwer Lettfält",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "234",
+            "Projektnummer": "P10020",
+            "Projektnamn": "Kv Spettet",
+            "Kund": "",
+            "Projektledare": "Olliwer Lettfält",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "235",
+            "Projektnummer": "P10019",
+            "Projektnamn": "Kv Kvarnstugan",
+            "Kund": "Zengun AB",
+            "Projektledare": "Stefan Jansson",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "236",
+            "Projektnummer": "P10018",
+            "Projektnamn": "Kista Norra Terminal",
+            "Kund": "",
+            "Projektledare": "John Seiger",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "237",
+            "Projektnummer": "P10017",
+            "Projektnamn": "Wendelstrand",
+            "Kund": "",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Preparation"
+        },
+        {
+            "id": "238",
+            "Projektnummer": "P10016",
+            "Projektnamn": "Försäljning timmar Victor Danmark",
+            "Kund": "Envac Danmark A/S",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "239",
+            "Projektnummer": "P10015",
+            "Projektnamn": "Försäljning timmar Jacob Runneberger UK",
+            "Kund": "Envac UK Ltd",
+            "Projektledare": "Jacob Runneberger",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "240",
+            "Projektnummer": "P10014",
+            "Projektnamn": "Försäljning timmar Jacob Runneberger Danmark",
+            "Kund": "Envac Danmark A/S",
+            "Projektledare": "Jacob Runneberger",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "241",
+            "Projektnummer": "P10013",
+            "Projektnamn": "Försäljning timmar Jacob Runneberger Finland",
+            "Kund": "Envac Finland OY",
+            "Projektledare": "Jacob Runneberger",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "242",
+            "Projektnummer": "P10012",
+            "Projektnamn": "Försäljning timmar Jacob Runneberger Norge",
+            "Kund": "Envac Norge AS",
+            "Projektledare": "Jacob Runneberger",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "243",
+            "Projektnummer": "P10011",
+            "Projektnamn": "FRAH selling hours to FIN",
+            "Kund": "Envac Finland OY",
+            "Projektledare": "Fredrik Ahlén",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "244",
+            "Projektnummer": "P10010",
+            "Projektnamn": "Holjegården SÄBO",
+            "Kund": "JSB Construction AB",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "245",
+            "Projektnummer": "P10009",
+            "Projektnamn": "MAOS Selling hours to UK",
+            "Kund": "Envac UK Ltd",
+            "Projektledare": "Mattias Oscarsson",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "246",
+            "Projektnummer": "P10008",
+            "Projektnamn": "MAOS Selling hours to HK",
+            "Kund": "Envac AB",
+            "Projektledare": "Mattias Oscarsson",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "247",
+            "Projektnummer": "P10007",
+            "Projektnamn": "MAOS Selling hours to DK",
+            "Kund": "Envac Danmark A/S",
+            "Projektledare": "Mattias Oscarsson",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "248",
+            "Projektnummer": "P10006",
+            "Projektnamn": "MAOS Selling hours to FIN",
+            "Kund": "Envac Finland OY",
+            "Projektledare": "Mattias Oscarsson",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "249",
+            "Projektnummer": "P10005",
+            "Projektnamn": "MAOS Selling hours to NO",
+            "Kund": "Envac Norge AS",
+            "Projektledare": "Mattias Oscarsson",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "250",
+            "Projektnummer": "P10004",
+            "Projektnamn": "Godisfabriken",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Estimation"
+        },
+        {
+            "id": "251",
+            "Projektnummer": "P10003",
+            "Projektnamn": "Östra sjukhuset",
+            "Kund": "",
+            "Projektledare": "",
+            "Projektstatus": "Estimation"
+        },
+        {
+            "id": "252",
+            "Projektnummer": "P10002",
+            "Projektnamn": "Barkarbystaden 2 & 3",
+            "Kund": "",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Estimation"
+        },
+        {
+            "id": "253",
+            "Projektnummer": "P10001",
+            "Projektnamn": "Barkarbystaden 3 & 4",
+            "Kund": "",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Estimation"
+        },
+        {
+            "id": "254",
+            "Projektnummer": "D10001",
+            "Projektnamn": "O&M Alignment - Serviceprocessen",
+            "Kund": "Envac AB",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "255",
+            "Projektnummer": "97579",
+            "Projektnamn": "Ulriksdal Generalnet",
+            "Kund": "Peab Bostad AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "256",
+            "Projektnummer": "96259",
+            "Projektnamn": "86 Kongahälla Etapp 1",
+            "Kund": "Kungälvs Kommun",
+            "Projektledare": "",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "257",
+            "Projektnummer": "93755",
+            "Projektnamn": "Distansen",
+            "Kund": "Peab Sverige AB",
+            "Projektledare": "",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "258",
+            "Projektnummer": "368058",
+            "Projektnamn": "HEM Utökning av optisk sorteringsanläggning",
+            "Kund": "Halmstad Energi och Miljö AB",
+            "Projektledare": "Mårten Sonnerup",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "259",
+            "Projektnummer": "368039",
+            "Projektnamn": "Husby - Rörbyte Etapp 3",
+            "Kund": "Samfällighetsför.  Sopsug i Husby-Akalla",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "260",
+            "Projektnummer": "367650",
+            "Projektnamn": "Rågsved, byte avloppsrör",
+            "Kund": "Sopsug i Rågsved Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "261",
+            "Projektnummer": "367426",
+            "Projektnamn": "N-22911 Årstahusen kv 1",
+            "Kund": "Noccon AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "262",
+            "Projektnummer": "367063",
+            "Projektnamn": "23776 Industrigatan 7B",
+            "Kund": "Fastighets AB Väderholmen",
+            "Projektledare": "Stefan Nordin",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "263",
+            "Projektnummer": "366969",
+            "Projektnamn": "Rörbyte Solberga Hagv.",
+            "Kund": "Sopsug i Älvsjö Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "264",
+            "Projektnummer": "366895",
+            "Projektnamn": "N-22928 Tåjärnet",
+            "Kund": "Skanska Sverige AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "265",
+            "Projektnummer": "366658",
+            "Projektnamn": "Kista, Rörbyte Kastrupsgatan",
+            "Kund": "Dipart Entreprenad AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "266",
+            "Projektnummer": "366332",
+            "Projektnamn": "N Hammarby, Ny Cyklon",
+            "Kund": "Sopsug Hammarby Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "267",
+            "Projektnummer": "366210",
+            "Projektnamn": "N-22070 kv. Plankan",
+            "Kund": "Skanska Sverige AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "268",
+            "Projektnummer": "366116",
+            "Projektnamn": "N-22618 kv.Motionären Hallonbe",
+            "Kund": "Hallonporten AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "269",
+            "Projektnummer": "365918",
+            "Projektnamn": "N-23948 Förproj kv Bollen",
+            "Kund": "Solnabostäder AB",
+            "Projektledare": "Tobias Lindberg",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "270",
+            "Projektnummer": "365509",
+            "Projektnamn": "Huddinge C, rörbyte utanf term",
+            "Kund": "Huge Bostäder AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "271",
+            "Projektnummer": "365350",
+            "Projektnamn": "Smedshagen Akut rörbyte utanfö",
+            "Kund": "Hässelby Hem AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "272",
+            "Projektnummer": "364893",
+            "Projektnamn": "Gävle sjuk om o tillbygg Hus29",
+            "Kund": "ByggPartner i Dalarna AB",
+            "Projektledare": "Kurt Bergström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "273",
+            "Projektnummer": "364368",
+            "Projektnamn": "Stapelbädden, ny kompressor",
+            "Kund": "BoDAB AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "274",
+            "Projektnummer": "364134",
+            "Projektnamn": "Rissne, Rörbyte gren 2",
+            "Kund": "Fastighets AB Förvaltaren",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "275",
+            "Projektnummer": "364107",
+            "Projektnamn": "N-23870 Kv, Doktoranden Servis",
+            "Kund": "Klövern Sundbyberg Doktoranden 1 AB",
+            "Projektledare": "Stefan Jansson",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "276",
+            "Projektnummer": "364053",
+            "Projektnamn": "N-21765 Ballongberget G&inletn",
+            "Kund": "Skandia Bostäder",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "277",
+            "Projektnummer": "363749",
+            "Projektnamn": "N-23859 Rörbyte Hagalundsgatan",
+            "Kund": "Solnabostäder AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "278",
+            "Projektnummer": "363736",
+            "Projektnamn": "N-23549 Veddesta Kv. 11",
+            "Kund": "Consto AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "279",
+            "Projektnummer": "363150",
+            "Projektnamn": "Bergshamra, ny kompressor",
+            "Kund": "Bostadsstiftelsen Signalisten i Solna",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "280",
+            "Projektnummer": "362926",
+            "Projektnamn": "ÖS sopterminal ÄTA",
+            "Kund": "Fastighet, stöd och service",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "281",
+            "Projektnummer": "362828",
+            "Projektnamn": "Dalen inst EAP 2024 delprojekt",
+            "Kund": "",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "282",
+            "Projektnummer": "362726",
+            "Projektnamn": "Bakarby A, ny kompressor",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "283",
+            "Projektnummer": "362720",
+            "Projektnamn": "HUA, 2 st Verks.luckor T-bana",
+            "Kund": "Landstingsfastigheter Stockholm",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "284",
+            "Projektnummer": "362715",
+            "Projektnamn": "Barkarby A, kv1 rörlagning",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "285",
+            "Projektnummer": "362211",
+            "Projektnamn": "Granängsringen, Nya luckor",
+            "Kund": "BoDAB AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "286",
+            "Projektnummer": "362009",
+            "Projektnamn": "N-23471 Övr Tensta,Tensta 4:1",
+            "Kund": "AB Familjebostäder",
+            "Projektledare": "Fredrik Ahlén",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "287",
+            "Projektnummer": "361493",
+            "Projektnamn": "Västerhöjdens äldreboende",
+            "Kund": "JSB Construction AB",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "288",
+            "Projektnummer": "361328",
+            "Projektnamn": "Skarpnäck, Nya containrar",
+            "Kund": "Brf Årsta Torg",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "289",
+            "Projektnummer": "361214",
+            "Projektnamn": "Annedal Shtlm, ny f-container",
+            "Kund": "AgnesCecilia Sopsug Samfällighetsförenin",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "290",
+            "Projektnummer": "360812",
+            "Projektnamn": "Barking Bellway",
+            "Kund": "Envac UK Ltd",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "291",
+            "Projektnummer": "360287",
+            "Projektnamn": "N-23315 Mottagningshuset CSK",
+            "Kund": "Skanska Sverige AB",
+            "Projektledare": "Kurt Bergström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "292",
+            "Projektnummer": "360178",
+            "Projektnamn": "Dalen investering 2024-2028",
+            "Kund": "Dalens Samfällighetsförening",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "293",
+            "Projektnummer": "359869",
+            "Projektnamn": "N-22341 Persikan 1B Förprojekt",
+            "Kund": "Saro Projekt AB",
+            "Projektledare": "Tobias Lindberg",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "294",
+            "Projektnummer": "359850",
+            "Projektnamn": "Älvsjö Invest 2024-2026 kv 1",
+            "Kund": "Sopsug i Älvsjö Samfällighetsförening",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "295",
+            "Projektnummer": "359664",
+            "Projektnamn": "N-23784 Högalid rörb E1 Zinkvä",
+            "Kund": "Sopsug i Högalid Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "296",
+            "Projektnummer": "359422",
+            "Projektnamn": "Tunet Råckstavägen",
+            "Kund": "Micasa Fastigheter i Stockholm AB",
+            "Projektledare": "Stefan Nordin",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "297",
+            "Projektnummer": "359320",
+            "Projektnamn": "Fruängsgård, Akut rörbyt utanf",
+            "Kund": "Micasa Fastigheter i Stockholm AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "298",
+            "Projektnummer": "359308",
+            "Projektnamn": "N-23774 Kv. Roden, Förprojekte",
+            "Kund": "JM AB",
+            "Projektledare": "Fredrik Ahlén",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "299",
+            "Projektnummer": "359219",
+            "Projektnamn": "Kista, Rörbyte Kista Servicehu",
+            "Kund": "Kista Sopsug Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "300",
+            "Projektnummer": "359212",
+            "Projektnamn": "Kista, Rörbyte Terminal",
+            "Kund": "Kista Sopsug Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "301",
+            "Projektnummer": "359145",
+            "Projektnamn": "Huddinge C, Ny Cyklon + Rotera",
+            "Kund": "Huge Bostäder AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "302",
+            "Projektnummer": "359096",
+            "Projektnamn": "Smytckeparken röruppgraderinga",
+            "Kund": "Stena Fastigh Smyckeparken AB",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "303",
+            "Projektnummer": "358765",
+            "Projektnamn": "N-23549 Kv. 11 Veddesta Förpro",
+            "Kund": "Consto Sverige AB",
+            "Projektledare": "Fredrik Ahlén",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "304",
+            "Projektnummer": "358751",
+            "Projektnamn": "Rågsved investering 2024-2027 Terminal",
+            "Kund": "Sopsug i Rågsved Samfällighetsförening",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "305",
+            "Projektnummer": "358712",
+            "Projektnamn": "Rissne, Akutlagning utanför te",
+            "Kund": "Fastighets AB Förvaltaren",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "306",
+            "Projektnummer": "358703",
+            "Projektnamn": "Rissne akutlagning SE-4",
+            "Kund": "Brf Rissne SFF",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "307",
+            "Projektnummer": "358550",
+            "Projektnamn": "Amhult Uppgradering",
+            "Kund": "B430 Göteborgs Stads Bostads AB",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "308",
+            "Projektnummer": "358521",
+            "Projektnamn": "Brf Sannegårdshamnen Ombyggnat",
+            "Kund": "Brf Sannegårdshamnen (8233)",
+            "Projektledare": "",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "309",
+            "Projektnummer": "358500",
+            "Projektnamn": "N-23140 Gårdshuset Projekter 2",
+            "Kund": "Consto Sverige AB",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "310",
+            "Projektnummer": "358252",
+            "Projektnamn": "Kista, Rörbyte Igelbäcksskolan",
+            "Kund": "Kista Sopsug Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "311",
+            "Projektnummer": "358247",
+            "Projektnamn": "Huddinge C, laga påstick 5:1",
+            "Kund": "Huge Bostäder AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "312",
+            "Projektnummer": "358030",
+            "Projektnamn": "N Hammarby, Rörbyte utanför te",
+            "Kund": "Sopsug Hammarby Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "313",
+            "Projektnummer": "357618",
+            "Projektnamn": "Skarpnäck, Rörbyte terminal",
+            "Kund": "Brf Årsta Torg",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "314",
+            "Projektnummer": "357311",
+            "Projektnamn": "Blekingegatan",
+            "Kund": "Duo Asfalt",
+            "Projektledare": "Stefan Nordin",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "315",
+            "Projektnummer": "357104",
+            "Projektnamn": "N-23719 KJv. Målburen 1, Hallo",
+            "Kund": "Hallonporten AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "316",
+            "Projektnummer": "357037",
+            "Projektnamn": "Högalid, Akutlagning Zinkens v",
+            "Kund": "Sopsug i Högalid Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "317",
+            "Projektnummer": "356718",
+            "Projektnamn": "EAP Annedal 2024-2027",
+            "Kund": "AgnesCecilia Sopsug Samfällighetsförenin",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "318",
+            "Projektnummer": "356703",
+            "Projektnamn": "EAP ReFlow Eriksberg 2024-2027",
+            "Kund": "Eriksbergs Samfällighets Förening",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "319",
+            "Projektnummer": "356631",
+            "Projektnamn": "N Hammarby, Rörbyte i terminal",
+            "Kund": "BoDAB AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "320",
+            "Projektnummer": "356360",
+            "Projektnamn": "20254 Fisksätra C Term+Inlet",
+            "Kund": "KB Josefina IB",
+            "Projektledare": "Stefan Jansson",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "321",
+            "Projektnummer": "356127",
+            "Projektnamn": "Förstudie finsortering ESEM",
+            "Kund": "Eskilstuna Strängnäs Energi & Miljö AB",
+            "Projektledare": "Daniel Skott",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "322",
+            "Projektnummer": "356017",
+            "Projektnamn": "Pilträdet, Ny container",
+            "Kund": "BoDAB AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "323",
+            "Projektnummer": "355815",
+            "Projektnamn": "HUA, Rörbyte Akalla etapp 2",
+            "Kund": "Samfällighetsför.  Sopsug i Husby-Akalla",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "324",
+            "Projektnummer": "355771",
+            "Projektnamn": "Mariatorget 6 st papperskorgar",
+            "Kund": "Stockholm Avfall AB",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "325",
+            "Projektnummer": "355739",
+            "Projektnamn": "22622 Krukmakargatan 9",
+            "Kund": "AB Stockholmshem",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "326",
+            "Projektnummer": "355549",
+            "Projektnamn": "Rensbrunnar Granängsringen",
+            "Kund": "Tyresö Bostäder AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "327",
+            "Projektnummer": "355205",
+            "Projektnamn": "23256 Artemisgatan",
+            "Kund": "AB Stockholmshem",
+            "Projektledare": "Stefan Nordin",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "328",
+            "Projektnummer": "354987",
+            "Projektnamn": "Ersta hus 11-13",
+            "Kund": "Ersta diakonisällskap",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "329",
+            "Projektnummer": "354923",
+            "Projektnamn": "BS II Kv 3",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "330",
+            "Projektnummer": "354910",
+            "Projektnamn": "Veddesta 1:12",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "331",
+            "Projektnummer": "354794",
+            "Projektnamn": "Vindshifter Remiks i Tromsö",
+            "Kund": "Envac Norge AS",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "332",
+            "Projektnummer": "354790",
+            "Projektnamn": "Barkarby A, omfoliering BS1",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "333",
+            "Projektnummer": "354748",
+            "Projektnamn": "Hammarby Gård, SE2",
+            "Kund": "Sjöstaden Västra Sopsug Samfällighetsför",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "334",
+            "Projektnummer": "354661",
+            "Projektnamn": "Container",
+            "Kund": "RBF Malmöhus 23",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "335",
+            "Projektnummer": "354323",
+            "Projektnamn": "Fruängsgården, flytt av DV 1:3",
+            "Kund": "Boetten Bygg AB",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "336",
+            "Projektnummer": "354036",
+            "Projektnamn": "S Brunna, Motorbyte",
+            "Kund": "Brf Repslagaren i Upplands-Bro",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "337",
+            "Projektnummer": "353886",
+            "Projektnamn": "Vega byte styrkort slinga 2",
+            "Kund": "Vegastadens Sopsug Samfällighet",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "338",
+            "Projektnummer": "353885",
+            "Projektnamn": "Kompressor Vega",
+            "Kund": "Vegastadens Sopsug Samfällighet",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "339",
+            "Projektnummer": "353864",
+            "Projektnamn": "Byte Spjällhus Östra Torpa",
+            "Kund": "B430 Göteborgs Stads Bostads AB",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "340",
+            "Projektnummer": "353432",
+            "Projektnamn": "21043 Otiumhuset Äldreboende",
+            "Kund": "Stiftelsen Otium",
+            "Projektledare": "",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "341",
+            "Projektnummer": "353240",
+            "Projektnamn": "Muttern 11 förproj",
+            "Kund": "Zengun Redo AB",
+            "Projektledare": "Fredrik Ahlén",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "342",
+            "Projektnummer": "352979",
+            "Projektnamn": "23628 Degerbygränd 6-14",
+            "Kund": "AB Familjebostäder",
+            "Projektledare": "Stefan Nordin",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "343",
+            "Projektnummer": "352147",
+            "Projektnamn": "Skarpnäck, 1 st fläkthjul",
+            "Kund": "Sopsug i Skarpnäck Samfällighetsförening",
+            "Projektledare": "Christina Davidsson",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "344",
+            "Projektnummer": "352146",
+            "Projektnamn": "Inkasthuvar Barkarby",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Christina Davidsson",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "345",
+            "Projektnummer": "352143",
+            "Projektnamn": "Larmbordsprojekt Oscar",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "346",
+            "Projektnummer": "351318",
+            "Projektnamn": "Reimers, Rörbyte vid terminal",
+            "Kund": "Sopsug på Reimersholme Samfällighetsför.",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "347",
+            "Projektnummer": "351311",
+            "Projektnamn": "Byte av böj i platta",
+            "Kund": "B410 Bostads AB Poseidon",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "348",
+            "Projektnummer": "351240",
+            "Projektnamn": "Rörbyte Gröndalsvägen",
+            "Kund": "BoDAB AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "349",
+            "Projektnummer": "351026",
+            "Projektnamn": "N-22535 kv. Smejan 2, Entrepre",
+            "Kund": "ED Bygg Sverige AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "350",
+            "Projektnummer": "350785",
+            "Projektnamn": "Kompressor",
+            "Kund": "Sopsug i Haga Samfällighetsförening",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "351",
+            "Projektnummer": "350750",
+            "Projektnamn": "Förproj Schieveste",
+            "Kund": "Centralned BV",
+            "Projektledare": "Tobias Lindberg",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "352",
+            "Projektnummer": "350612",
+            "Projektnamn": "Skärholmen, Akutlagning",
+            "Kund": "BoDAB AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "353",
+            "Projektnummer": "350566",
+            "Projektnamn": "Brunnsbo",
+            "Kund": "B430 Göteborgs Stads Bostads AB",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "354",
+            "Projektnummer": "350469",
+            "Projektnamn": "20315 ÖS Option IVA-HBO",
+            "Kund": "Fastighet, stöd och service",
+            "Projektledare": "Kurt Bergström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "355",
+            "Projektnummer": "350397",
+            "Projektnamn": "Smedshagen, rörinvent filmning",
+            "Kund": "Hässelby Hem AB",
+            "Projektledare": "Christina Davidsson",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "356",
+            "Projektnummer": "350371",
+            "Projektnamn": "23259 Kompl Matavfall Borås",
+            "Kund": "AB Bostäder i Borås",
+            "Projektledare": "",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "357",
+            "Projektnummer": "350083",
+            "Projektnamn": "Tryckluftutredning Persikoomr.",
+            "Kund": "Exploateringskontoret",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "358",
+            "Projektnummer": "349956",
+            "Projektnamn": "N-23239 Kv. Råttan",
+            "Kund": "Einar Mattsons Byggnads AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "359",
+            "Projektnummer": "349204",
+            "Projektnamn": "SÖS-flytt 2 inkast",
+            "Kund": "Lassila & Tikanoja FM AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "360",
+            "Projektnummer": "349203",
+            "Projektnamn": "Riddarsporren nytt EAP",
+            "Kund": "Riddarsporrens Samfällighetsförening",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "361",
+            "Projektnummer": "349202",
+            "Projektnamn": "RÅcksta nytt EAP",
+            "Kund": "Micasa Fastigheter i Stockholm AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "362",
+            "Projektnummer": "348821",
+            "Projektnamn": "Gävle sjukh Hus 32 modulhuset",
+            "Kund": "Gävle Rörteam AB",
+            "Projektledare": "Kurt Bergström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "363",
+            "Projektnummer": "348551",
+            "Projektnamn": "23217 Motol Prag - Design",
+            "Kund": "KARLÍNBLOK s.r.o.",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "364",
+            "Projektnummer": "348235",
+            "Projektnamn": "Skarpnäck EAP Licens 2023-2026",
+            "Kund": "Sopsug i Skarpnäck Samfällighetsförening",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "365",
+            "Projektnummer": "347635",
+            "Projektnamn": "23427 Primus Udde Rör Wästbygg",
+            "Kund": "Exploateringskontoret",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "366",
+            "Projektnummer": "347612",
+            "Projektnamn": "Modernisering Avfallsservice",
+            "Kund": "Envac Norge AS",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "367",
+            "Projektnummer": "347067",
+            "Projektnamn": "22636 kv Tjället 8",
+            "Kund": "Skanska Sverige AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "368",
+            "Projektnummer": "346897",
+            "Projektnamn": "N Hammarby, Motor & Hjul",
+            "Kund": "BoDAB AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "369",
+            "Projektnummer": "346080",
+            "Projektnamn": "Sö Station, Underhåll Terminal",
+            "Kund": "BoDAB AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "370",
+            "Projektnummer": "345965",
+            "Projektnamn": "23485 Sickla Kaj",
+            "Kund": "Sickla Kaj Samfällighetsförening",
+            "Projektledare": "Stefan Nordin",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "371",
+            "Projektnummer": "345681",
+            "Projektnamn": "23461 Förstudie - Förproj SHEM",
+            "Kund": "AB Stockholmshem",
+            "Projektledare": "Fredrik Ahlén",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "372",
+            "Projektnummer": "345659",
+            "Projektnamn": "Byte rör Ö Eriksgsgatan",
+            "Kund": "Eriksbergs Samfällighets Förening",
+            "Projektledare": "",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "373",
+            "Projektnummer": "345029",
+            "Projektnamn": "N-23134 Fagersta Äldreboende",
+            "Kund": "Serneke Sverige AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "374",
+            "Projektnummer": "344895",
+            "Projektnamn": "22834 Kv 6 Kongahälla Kaprifol",
+            "Kund": "Kungälvs Kommun",
+            "Projektledare": "",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "375",
+            "Projektnummer": "344862",
+            "Projektnamn": "Lindholmen styrkort SGS/Vimpel",
+            "Kund": "Lindholmens Sopsug Samfällighet",
+            "Projektledare": "Susanne Klintred",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "376",
+            "Projektnummer": "344540",
+            "Projektnamn": "Isgränd 4",
+            "Kund": "AB Stockholmshem",
+            "Projektledare": "Stefan Nordin",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "377",
+            "Projektnummer": "344358",
+            "Projektnamn": "Investering Bäcken 2023-2028",
+            "Kund": "Nordenskiöldsgatans Sopsug Samfäll.för.",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "378",
+            "Projektnummer": "344184",
+            "Projektnamn": "23428 finlandsg förstudie rev",
+            "Kund": "Exploateringskontoret",
+            "Projektledare": "Lars-Göran Andersson",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "379",
+            "Projektnummer": "343595",
+            "Projektnamn": "N-22070 Plankan fortsatt proj",
+            "Kund": "AB Svenska Bostäder",
+            "Projektledare": "Fredrik Ahlén",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "380",
+            "Projektnummer": "343505",
+            "Projektnamn": "Förproj. Kv Femöringen",
+            "Kund": "NCC Property åttioåtta AB",
+            "Projektledare": "Fredrik Ahlén",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "381",
+            "Projektnummer": "343328",
+            "Projektnamn": "Kista EAP Licens 2023-2023",
+            "Kund": "Kista Sopsug Samfällighetsförening",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "382",
+            "Projektnummer": "343131",
+            "Projektnamn": "Hammarby Gård, Rörbyte Textilg",
+            "Kund": "Sjöstaden Västra Sopsug Samfällighetsför",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "383",
+            "Projektnummer": "342442",
+            "Projektnamn": "N-23416 Toren 5",
+            "Kund": "Centralned BV",
+            "Projektledare": "Tobias Lindberg",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "384",
+            "Projektnummer": "342232",
+            "Projektnamn": "Nordvaerk, Ålborg",
+            "Kund": "Envac Danmark A/S",
+            "Projektledare": "Mårten Sonnerup",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "385",
+            "Projektnummer": "342031",
+            "Projektnamn": "Förproj. Karlsbodavägen",
+            "Kund": "Design Lab Group sp. z o. o. sp. k.",
+            "Projektledare": "Fredrik Ahlén",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "386",
+            "Projektnummer": "341692",
+            "Projektnamn": "Barking Riverside pipes",
+            "Kund": "Envac UK Ltd",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "387",
+            "Projektnummer": "341189",
+            "Projektnamn": "BS3/4 Externa arb. Terminal B",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "388",
+            "Projektnummer": "341081",
+            "Projektnamn": "N-22910 Ananasen",
+            "Kund": "SKB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "389",
+            "Projektnummer": "341054",
+            "Projektnamn": "N-20963 Persikan kv.6",
+            "Kund": "AB Stockholmshem",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "390",
+            "Projektnummer": "340935",
+            "Projektnamn": "Barkarby, 91 lasernivågivare",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Joakim Nyholm",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "391",
+            "Projektnummer": "340401",
+            "Projektnamn": "Gävle sjukhus luckbyte 10st",
+            "Kund": "Lassila & Tikanoja FM AB",
+            "Projektledare": "Kurt Bergström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "392",
+            "Projektnummer": "340121",
+            "Projektnamn": "Kv. Marie Curie HD3 CB",
+            "Kund": "Lunds kommun",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "393",
+            "Projektnummer": "339208",
+            "Projektnamn": "Barkarbystaden, TA-Plan",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "394",
+            "Projektnummer": "339119",
+            "Projektnamn": "21787 kv Torsken",
+            "Kund": "Roslagens Markentreprenad AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "395",
+            "Projektnummer": "338827",
+            "Projektnamn": "N-23269 B-byst III&IV 1:14 mfl",
+            "Kund": "Skanska Sverige AB",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "396",
+            "Projektnummer": "338159",
+            "Projektnamn": "Förprojektering Orminge entré",
+            "Kund": "Arwidsro Byggnads AB",
+            "Projektledare": "Fredrik Ahlén",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "397",
+            "Projektnummer": "338140",
+            "Projektnamn": "Förprojektering Podium 26",
+            "Kund": "Centralned BV",
+            "Projektledare": "Tobias Lindberg",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "398",
+            "Projektnummer": "337622",
+            "Projektnamn": "Limburg Service 2022-2027",
+            "Kund": "Motogroup BV (Optibag)",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "399",
+            "Projektnummer": "335883",
+            "Projektnamn": "Pristagaren ICA HD2",
+            "Kund": "Lunds kommun",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "400",
+            "Projektnummer": "335867",
+            "Projektnamn": "Kv. Max Planck CB",
+            "Kund": "Lunds kommun",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "401",
+            "Projektnummer": "335136",
+            "Projektnamn": "E-468 Tekn. utr. sopsug Haga",
+            "Kund": "Exploateringskontoret",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "402",
+            "Projektnummer": "334739",
+            "Projektnamn": "Ballongberget Terminal Kv B",
+            "Kund": "AF Bygg Stockholm AB",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "403",
+            "Projektnummer": "334348",
+            "Projektnamn": "Ljungby Sorting",
+            "Kund": "Ljungby Kommun (Optibag)",
+            "Projektledare": "Mårten Sonnerup",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "404",
+            "Projektnummer": "334171",
+            "Projektnamn": "N-22191 Umami Etapp 5",
+            "Kund": "Wallenstam Fastigheter 291 AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "405",
+            "Projektnummer": "333715",
+            "Projektnamn": "N-22490 Ekbacka SÄBO Borgholm",
+            "Kund": "Multibygg Sydost AB",
+            "Projektledare": "Håkan Larsson",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "406",
+            "Projektnummer": "332400",
+            "Projektnamn": "Limburg – Loose material",
+            "Kund": "Motogroup BV (Optibag)",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "407",
+            "Projektnummer": "332154",
+            "Projektnamn": "22851 Huvudsta Term samt g-net",
+            "Kund": "Solna Stad",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "408",
+            "Projektnummer": "332140",
+            "Projektnamn": "N-22942 Veddesta 041 Gen-net",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "409",
+            "Projektnummer": "332070",
+            "Projektnamn": "Lilla Backa",
+            "Kund": "Lilla Backabostäder AB",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "410",
+            "Projektnummer": "331925",
+            "Projektnamn": "N-22231 Tratolixo",
+            "Kund": "EFACEC Engenharia e Sistemas, SA",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "411",
+            "Projektnummer": "331913",
+            "Projektnamn": "S. Station, Rörbyte Bjälbogata",
+            "Kund": "BoDAB AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "412",
+            "Projektnummer": "330460",
+            "Projektnamn": "HUA, Rörbyte Oslogatan 6",
+            "Kund": "Samfällighetsför.  Sopsug i Husby-Akalla",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "413",
+            "Projektnummer": "329825",
+            "Projektnamn": "22575 Fisksätra C Huvudledning",
+            "Kund": "KB Josefina IB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "414",
+            "Projektnummer": "329802",
+            "Projektnamn": "N-22928 Förproj Tåjärnet",
+            "Kund": "Skanska Sverige AB",
+            "Projektledare": "Fredrik Ahlén",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "415",
+            "Projektnummer": "329787",
+            "Projektnamn": "Barkarby Term B inkast reflow",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "416",
+            "Projektnummer": "329060",
+            "Projektnamn": "Kv. Albert Einstein CB HD3",
+            "Kund": "Lunds kommun",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "417",
+            "Projektnummer": "328718",
+            "Projektnamn": "Rågsved, Rörbyte Hagsätravägen",
+            "Kund": "Sopsug i Rågsved Samfällighetsförening",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "418",
+            "Projektnummer": "327999",
+            "Projektnamn": "22706 kv kylfacket förproj",
+            "Kund": "Atrium Ljungberg Hallvägen AB",
+            "Projektledare": "Fredrik Ahlén",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "419",
+            "Projektnummer": "327551",
+            "Projektnamn": "N-22930 Seinhuis förproj",
+            "Kund": "Centralned BV",
+            "Projektledare": "Tobias Lindberg",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "420",
+            "Projektnummer": "327113",
+            "Projektnamn": "22868 Primus Förprojektering",
+            "Kund": "Peab Sverige AB",
+            "Projektledare": "Fredrik Ahlén",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "421",
+            "Projektnummer": "327062",
+            "Projektnamn": "Högalid, Rörbyte Kv. Spjutet",
+            "Kund": "BoDAB AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "422",
+            "Projektnummer": "327031",
+            "Projektnamn": "20407-Stigbergsliden",
+            "Kund": "AF Anläggning Väst AB",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "423",
+            "Projektnummer": "326812",
+            "Projektnamn": "N-20459 Dyrvers Kulle",
+            "Kund": "JM AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "424",
+            "Projektnummer": "326760",
+            "Projektnamn": "N-22772 Distansen",
+            "Kund": "Fabege Distansen 6 AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "425",
+            "Projektnummer": "326382",
+            "Projektnamn": "N-22833 B-bystad III&IV Gne II",
+            "Kund": "Skanska Sverige AB",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "426",
+            "Projektnummer": "326059",
+            "Projektnamn": "Vinnova Svoa 2022-2024",
+            "Kund": "",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "427",
+            "Projektnummer": "325978",
+            "Projektnamn": "20109 ÖS 4200 Avfall textil H3",
+            "Kund": "Fastighet, stöd och service",
+            "Projektledare": "Kurt Bergström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "428",
+            "Projektnummer": "325965",
+            "Projektnamn": "20109 ÖS 4200 Avfall textil H2",
+            "Kund": "Fastighet, stöd och service",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "429",
+            "Projektnummer": "325704",
+            "Projektnamn": "Sobacken Serviceavtal",
+            "Kund": "Borås Energi och Miljö AB",
+            "Projektledare": "Henrik Andersson",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "430",
+            "Projektnummer": "325573",
+            "Projektnamn": "Limburg Reservdelar",
+            "Kund": "Motogroup BV (Optibag)",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "431",
+            "Projektnummer": "325518",
+            "Projektnamn": "20109 ÖS 4200 Avfall textil H1",
+            "Kund": "Fastighet, stöd och service",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "432",
+            "Projektnummer": "325459",
+            "Projektnamn": "22711 NDS GK2",
+            "Kund": "Exploateringskontoret",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "433",
+            "Projektnummer": "325267",
+            "Projektnamn": "N-20698 kv. Bastun kvartersnät",
+            "Kund": "Andersson Company Byggnads AB",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "434",
+            "Projektnummer": "325096",
+            "Projektnamn": "Kv. Jane Adams HD3 CB",
+            "Kund": "Lunds kommun",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "435",
+            "Projektnummer": "324913",
+            "Projektnamn": "22659 Pyramiden option",
+            "Kund": "Skanska Sverige AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "436",
+            "Projektnummer": "324418",
+            "Projektnamn": "Hammarby EAP3 + plast",
+            "Kund": "Sjöstaden Västra Sopsug Samfällighetsför",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "437",
+            "Projektnummer": "323279",
+            "Projektnamn": "Telge Lamelltransportör",
+            "Kund": "Telge Återvinning AB",
+            "Projektledare": "Håkan Larsson",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "438",
+            "Projektnummer": "323231",
+            "Projektnamn": "22484 Telge-ny restutmat",
+            "Kund": "Telge Återvinning AB",
+            "Projektledare": "Håkan Larsson",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "439",
+            "Projektnummer": "321851",
+            "Projektnamn": "Barkarby A Underhåll ventiler,EAR3-Reflow 2021-2026",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "440",
+            "Projektnummer": "321720",
+            "Projektnamn": "N-22512 Förproj Wisselweg",
+            "Kund": "Centralned BV",
+            "Projektledare": "Tobias Lindberg",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "441",
+            "Projektnummer": "321285",
+            "Projektnamn": "N-22065 Persikan kv 3",
+            "Kund": "Einar Mattsons Byggnads AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "442",
+            "Projektnummer": "320257",
+            "Projektnamn": "N-22638 kv. Orienteraren",
+            "Kund": "Fastighets AB Förvaltaren",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "443",
+            "Projektnummer": "319919",
+            "Projektnamn": "Kv. 13 K2A Godisfabriken",
+            "Kund": "Gavlefastigheter Gävle Kommun AB",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "444",
+            "Projektnummer": "318658",
+            "Projektnamn": "Kv Måsholmen 21",
+            "Kund": "Stockholmshem i Skärholmen AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "445",
+            "Projektnummer": "318033",
+            "Projektnamn": "N-22425 Centrala Kista Förproj",
+            "Kund": "Brf Kista Square Garden",
+            "Projektledare": "Lars-Göran Andersson",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "446",
+            "Projektnummer": "317969",
+            "Projektnamn": "N-22210 Kv. Stranninge 1",
+            "Kund": "ByggPartner i Dalarna AB",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "447",
+            "Projektnummer": "317927",
+            "Projektnamn": "Karlstad Sjukhus CSK Modulhus",
+            "Kund": "ByggDialog AB",
+            "Projektledare": "Kurt Bergström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "448",
+            "Projektnummer": "317624",
+            "Projektnamn": "BS IV Kv 15",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "449",
+            "Projektnummer": "317611",
+            "Projektnamn": "BS IV Kv 14",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "450",
+            "Projektnummer": "317597",
+            "Projektnamn": "BS IV Kv 13",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "451",
+            "Projektnummer": "317584",
+            "Projektnamn": "BS IV Kv 12",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "452",
+            "Projektnummer": "317571",
+            "Projektnamn": "BS IV Kv 11",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "453",
+            "Projektnummer": "317558",
+            "Projektnamn": "BS IV Kv 10",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "454",
+            "Projektnummer": "317545",
+            "Projektnamn": "BS IV Kv 9",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "455",
+            "Projektnummer": "317532",
+            "Projektnamn": "BS IV Kv 8",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "456",
+            "Projektnummer": "317519",
+            "Projektnamn": "BS IV Kv 7",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "457",
+            "Projektnummer": "317505",
+            "Projektnamn": "BS IV Kv 6",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "458",
+            "Projektnummer": "317492",
+            "Projektnamn": "BS IV Kv 5",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "459",
+            "Projektnummer": "317479",
+            "Projektnamn": "BS IV Kv 4",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "460",
+            "Projektnummer": "317466",
+            "Projektnamn": "BS IV Kv 3",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "461",
+            "Projektnummer": "317453",
+            "Projektnamn": "BS IV Kv 2",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "462",
+            "Projektnummer": "317440",
+            "Projektnamn": "BS IV Kv 1",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "463",
+            "Projektnummer": "317427",
+            "Projektnamn": "BS III Kv 16",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "464",
+            "Projektnummer": "317414",
+            "Projektnamn": "BS III Kv 15",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "465",
+            "Projektnummer": "317401",
+            "Projektnamn": "BS III Kv 14",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "466",
+            "Projektnummer": "317387",
+            "Projektnamn": "BS III Kv 13",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "467",
+            "Projektnummer": "317374",
+            "Projektnamn": "BS III Kv 12",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "468",
+            "Projektnummer": "317361",
+            "Projektnamn": "BS III Kv 11",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "469",
+            "Projektnummer": "317348",
+            "Projektnamn": "BS III Kv 10",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "470",
+            "Projektnummer": "317335",
+            "Projektnamn": "BS III Kv 9",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "471",
+            "Projektnummer": "317322",
+            "Projektnamn": "BS III Kv 8",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "472",
+            "Projektnummer": "317309",
+            "Projektnamn": "BS III Kv 7",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "473",
+            "Projektnummer": "317296",
+            "Projektnamn": "BS III Kv 6",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "474",
+            "Projektnummer": "317283",
+            "Projektnamn": "BS III Kv 5",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "475",
+            "Projektnummer": "317270",
+            "Projektnamn": "BS III Kv 4",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "476",
+            "Projektnummer": "317257",
+            "Projektnamn": "BS III Kv 3",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "477",
+            "Projektnummer": "317244",
+            "Projektnamn": "BS III Kv 2",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "478",
+            "Projektnummer": "317230",
+            "Projektnamn": "BS III Kv 1",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "479",
+            "Projektnummer": "317004",
+            "Projektnamn": "21550 Gladan 3",
+            "Kund": "AF Bygg i Öst AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "480",
+            "Projektnummer": "316991",
+            "Projektnamn": "MVS Sthlm Entrepren. 2023-2029",
+            "Kund": "Stockholm Avfall AB",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "481",
+            "Projektnummer": "316730",
+            "Projektnamn": "N-20397 NLSH Iceland",
+            "Kund": "Envac Sweden AB útibú á Íslandi",
+            "Projektledare": "Kurt Bergström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "482",
+            "Projektnummer": "316395",
+            "Projektnamn": "N-22433 B-bystaden III&IV Term",
+            "Kund": "Winge Byggnads AB",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "483",
+            "Projektnummer": "316340",
+            "Projektnamn": "20840 Kv Mangon",
+            "Kund": "Wästbygg Entreprenad AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "484",
+            "Projektnummer": "314923",
+            "Projektnamn": "Barkarby 3 & 4 ÄTA",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "485",
+            "Projektnummer": "314346",
+            "Projektnamn": "Brunnshög Brunnshögstornen HD2",
+            "Kund": "Lunds kommun",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "486",
+            "Projektnummer": "314115",
+            "Projektnamn": "Brunnshög Diplomet HD2",
+            "Kund": "Lunds kommun",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "487",
+            "Projektnummer": "31409",
+            "Projektnamn": "N-21937 B-bystaden III&IV-E",
+            "Kund": "Skanska Sverige AB",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "488",
+            "Projektnummer": "313989",
+            "Projektnamn": "N-2081 Lindholmshamnen kv 1",
+            "Kund": "Riksbyggen ekonomisk förening",
+            "Projektledare": "",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "489",
+            "Projektnummer": "313732",
+            "Projektnamn": "Brunnshög Lagerkransen HD2",
+            "Kund": "Lunds kommun",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "490",
+            "Projektnummer": "312232",
+            "Projektnamn": "N-21873 kv Anholt",
+            "Kund": "AF Bygg i Öst AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "491",
+            "Projektnummer": "311887",
+            "Projektnamn": "21659 Skarpnäck Huvudledning",
+            "Kund": "Sopsug i Skarpnäck Samfällighetsförening",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "492",
+            "Projektnummer": "310130",
+            "Projektnamn": "22378 Hagastaden permanent ter",
+            "Kund": "Exploateringskontoret",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "493",
+            "Projektnummer": "309919",
+            "Projektnamn": "Lund Brunnshög Huvuddel 3 Proj",
+            "Kund": "Lunds kommun",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "494",
+            "Projektnummer": "309646",
+            "Projektnamn": "2021-2026 Annestad Malmö Inv.",
+            "Kund": "Annestads Samfällighetsförening",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "495",
+            "Projektnummer": "308640",
+            "Projektnamn": "N-22354 Vandraren&Skidåkaren",
+            "Kund": "Fastighets AB Förvaltaren",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "496",
+            "Projektnummer": "308627",
+            "Projektnamn": "Kv 3 Gavlegårdarna",
+            "Kund": "Gavlefastigheter Gävle Kommun AB",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "497",
+            "Projektnummer": "308625",
+            "Projektnamn": "Kv 1 Gavlegårdarna",
+            "Kund": "Gavlefastigheter Gävle Kommun AB",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "498",
+            "Projektnummer": "308623",
+            "Projektnamn": "Kv. 11 Purehousing",
+            "Kund": "Gavlefastigheter Gävle Kommun AB",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "499",
+            "Projektnummer": "308444",
+            "Projektnamn": "21408 Karlastaden - KWS",
+            "Kund": "Serneke Sverige AB",
+            "Projektledare": "Håkan Larsson",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "500",
+            "Projektnummer": "306754",
+            "Projektnamn": "N-21408 Karlatornet-Podiet",
+            "Kund": "Serneke Sverige AB",
+            "Projektledare": "",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "501",
+            "Projektnummer": "306616",
+            "Projektnamn": "N-22154 kv. Stugan, Stadshagen",
+            "Kund": "Primula Byggnads AB",
+            "Projektledare": "Håkan Larsson",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "502",
+            "Projektnummer": "305907",
+            "Projektnamn": "Barkarbystaden 2&3 Kvarter ÄTA",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "503",
+            "Projektnummer": "305552",
+            "Projektnamn": "Partille Port kv.2",
+            "Kund": "Peab Sverige AB",
+            "Projektledare": "",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "504",
+            "Projektnummer": "305413",
+            "Projektnamn": "Capella Karlastaden",
+            "Kund": "Serneke Sverige AB",
+            "Projektledare": "",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "505",
+            "Projektnummer": "305368",
+            "Projektnamn": "Brunnshög huvuddel 4",
+            "Kund": "Lunds kommun",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "506",
+            "Projektnummer": "305279",
+            "Projektnamn": "N-22132 Faunan 1",
+            "Kund": "Oljibe AB",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "507",
+            "Projektnummer": "304842",
+            "Projektnamn": "N-21824 Parstugan",
+            "Kund": "Mecon Bygg AB",
+            "Projektledare": "Joakim Nyholm",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "508",
+            "Projektnummer": "304526",
+            "Projektnamn": "N-22139 Brunnshög, Terminal",
+            "Kund": "Lunds kommun",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "509",
+            "Projektnummer": "304390",
+            "Projektnamn": "N-21294 Coimbra",
+            "Kund": "Reomti Bygg AB",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "510",
+            "Projektnummer": "304200",
+            "Projektnamn": "20668 Årstahusen kv 2",
+            "Kund": "Ikano Bostadsproduktion AB",
+            "Projektledare": "Håkan Larsson",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "511",
+            "Projektnummer": "303373",
+            "Projektnamn": "Barkarby BS 3 Kv 23",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "512",
+            "Projektnummer": "303360",
+            "Projektnamn": "Barkarby BS 3 Kv 22",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "513",
+            "Projektnummer": "303347",
+            "Projektnamn": "Barkarby BS 3 Kv 21",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "514",
+            "Projektnummer": "303334",
+            "Projektnamn": "Barkarby BS 3 Kv 20",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "515",
+            "Projektnummer": "303321",
+            "Projektnamn": "Barkarby BS 3 Kv 19",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "516",
+            "Projektnummer": "303308",
+            "Projektnamn": "Barkarby BS 3 Kv 17",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "517",
+            "Projektnummer": "303295",
+            "Projektnamn": "Barkarby BS 2 Kv 7",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "518",
+            "Projektnummer": "303282",
+            "Projektnamn": "Barkarby BS 2 Kv 6",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "519",
+            "Projektnummer": "303269",
+            "Projektnamn": "Barkarby BS 2 Kv 5",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "520",
+            "Projektnummer": "303256",
+            "Projektnamn": "Barkarby BS 2 Kv 4",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "521",
+            "Projektnummer": "303254",
+            "Projektnamn": "Barkarby BS 2 Kv 2",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "522",
+            "Projektnummer": "303241",
+            "Projektnamn": "Barkarby BS 2 Kv 1",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "523",
+            "Projektnummer": "303228",
+            "Projektnamn": "Barkarby BS 3 Kv 18",
+            "Kund": "Järfälla Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "524",
+            "Projektnummer": "302784",
+            "Projektnamn": "Limburg ÄTA",
+            "Kund": "Motogroup BV (Optibag)",
+            "Projektledare": "Mårten Sonnerup",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "525",
+            "Projektnummer": "302766",
+            "Projektnamn": "Limburg",
+            "Kund": "Motogroup BV (Optibag)",
+            "Projektledare": "Mårten Sonnerup",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "526",
+            "Projektnummer": "300117",
+            "Projektnamn": "N-21937 Barkarbystaden III&IV",
+            "Kund": "Skanska Sverige AB",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "527",
+            "Projektnummer": "299995",
+            "Projektnamn": "Terminal Pralinen",
+            "Kund": "Gavlefastigheter Gävle Kommun AB",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "528",
+            "Projektnummer": "297254",
+            "Projektnamn": "N-21110 Persikan kv 7 Kiwin",
+            "Kund": "JM Entreprenad AB ",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "529",
+            "Projektnummer": "297110",
+            "Projektnamn": "N-20116 kv Vaktstugan 3 Ursvik",
+            "Kund": "Wåhlin Fastigheter i Ursvik AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "530",
+            "Projektnummer": "296711",
+            "Projektnamn": "N-2205 Förproj Nacka port",
+            "Kund": "Peab Sverige AB",
+            "Projektledare": "",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "531",
+            "Projektnummer": "296580",
+            "Projektnamn": "N-21694 Kv Brygghuset V Ursvik",
+            "Kund": "Mecon Bygg AB",
+            "Projektledare": "Joakim Nyholm",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "532",
+            "Projektnummer": "296485",
+            "Projektnamn": "Rörbyte Husby",
+            "Kund": "Samfällighetsför.  Sopsug i Husby-Akalla",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "533",
+            "Projektnummer": "294205",
+            "Projektnamn": "N-21930 K. Artilleristen",
+            "Kund": "Fastighets AB Förvaltaren",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "534",
+            "Projektnummer": "293879",
+            "Projektnamn": "21897 Prästgärdet Säter",
+            "Kund": "Skanska Sverige AB",
+            "Projektledare": "Joakim Nyholm",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "535",
+            "Projektnummer": "293769",
+            "Projektnamn": "21923 Islandstroget rörledning",
+            "Kund": "AB Svenska Bostäder",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "536",
+            "Projektnummer": "292099",
+            "Projektnamn": "Tyresö MVS tömning 2020-2023",
+            "Kund": "Tyresö kommun",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "537",
+            "Projektnummer": "291302",
+            "Projektnamn": "Godisfabriken Huvudstam",
+            "Kund": "Gavlefastigheter Gävle Kommun AB",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "538",
+            "Projektnummer": "285545",
+            "Projektnamn": "Kv Pyramiden",
+            "Kund": "Skanska Sverige AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "539",
+            "Projektnummer": "269561",
+            "Projektnamn": "Hagastaden",
+            "Kund": "Exploateringskontoret",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "540",
+            "Projektnummer": "262605",
+            "Projektnamn": "Stallmästaren Matavfall",
+            "Kund": "Brf Stallmästaren",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "541",
+            "Projektnummer": "255301",
+            "Projektnamn": "Vita Höja Organiskt",
+            "Kund": "RBF Vita Höja",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "542",
+            "Projektnummer": "252841",
+            "Projektnamn": "Högsbo Investering",
+            "Kund": "B410 Bostads AB Poseidon",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "543",
+            "Projektnummer": "23314",
+            "Projektnamn": "Iran Air",
+            "Kund": "Iran Air",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Finished"
+        },
+        {
+            "id": "544",
+            "Projektnummer": "221090",
+            "Projektnamn": "Norra Djurgårdsstaden",
+            "Kund": "Exploateringskontoret",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "545",
+            "Projektnummer": "217573",
+            "Projektnamn": "Stallmästaren",
+            "Kund": "Brf Stallmästaren",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "546",
+            "Projektnummer": "214290",
+            "Projektnamn": "Nydala, Malmö",
+            "Kund": "RB Brf Malmöhus 11",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "547",
+            "Projektnummer": "20775",
+            "Projektnamn": "Vita Höja rörbyte",
+            "Kund": "RBF Vita Höja",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "548",
+            "Projektnummer": "207376",
+            "Projektnamn": "N-21919 N:a Hammarby förproj",
+            "Kund": "BoDAB AB",
+            "Projektledare": "",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "549",
+            "Projektnummer": "207258",
+            "Projektnamn": "Godisfabriken projektledning",
+            "Kund": "Gavlefastigheter Gävle Kommun AB",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "550",
+            "Projektnummer": "207242",
+            "Projektnamn": "Godisfabriken huvudprojekt",
+            "Kund": "Gavlefastigheter Gävle Kommun AB",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "551",
+            "Projektnummer": "206796",
+            "Projektnamn": "Renova 2020-2023",
+            "Kund": "Renova AB",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "552",
+            "Projektnummer": "203917",
+            "Projektnamn": "N-21677 Tyresö Norra C Etapp 2",
+            "Kund": "Tyresö kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "553",
+            "Projektnummer": "203237",
+            "Projektnamn": "N-21763 Patienten de- & återmo",
+            "Kund": "Arcona AB",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "554",
+            "Projektnummer": "201200",
+            "Projektnamn": "N-21661 Barkarbystaden 2",
+            "Kund": "Skanska Sverige AB",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "555",
+            "Projektnummer": "196166",
+            "Projektnamn": "Täby Park Allm plts mrk",
+            "Kund": "Täby Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "556",
+            "Projektnummer": "196153",
+            "Projektnamn": "Täby Park 2:6",
+            "Kund": "Täby Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "557",
+            "Projektnummer": "196137",
+            "Projektnamn": "Täby Park Kv 2:5",
+            "Kund": "Täby Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "558",
+            "Projektnummer": "196119",
+            "Projektnamn": "Täby Park Kv 2:4",
+            "Kund": "Täby Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "559",
+            "Projektnummer": "196106",
+            "Projektnamn": "Täby Park Kv 2:3",
+            "Kund": "Täby Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "560",
+            "Projektnummer": "196092",
+            "Projektnamn": "Täby Park Kv 2:2",
+            "Kund": "Täby Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "561",
+            "Projektnummer": "196079",
+            "Projektnamn": "Täby Park 2:1",
+            "Kund": "Täby Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "562",
+            "Projektnummer": "196066",
+            "Projektnamn": "Täby Park 1:13B",
+            "Kund": "Täby Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "563",
+            "Projektnummer": "196053",
+            "Projektnamn": "Täby Park 1:13A",
+            "Kund": "Täby Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "564",
+            "Projektnummer": "196031",
+            "Projektnamn": "Täby Park Kv 1:12",
+            "Kund": "Täby Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "565",
+            "Projektnummer": "196018",
+            "Projektnamn": "Täby Park Kv 1:10",
+            "Kund": "Täby Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "566",
+            "Projektnummer": "196004",
+            "Projektnamn": "Täby Park Kv 1:9",
+            "Kund": "Täby Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "567",
+            "Projektnummer": "195991",
+            "Projektnamn": "Täby Park Kv 1:8",
+            "Kund": "Täby Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "568",
+            "Projektnummer": "195978",
+            "Projektnamn": "Täby Park Kv 1:5",
+            "Kund": "Täby Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "569",
+            "Projektnummer": "195965",
+            "Projektnamn": "Täby Park Kv 1:4",
+            "Kund": "Täby Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "570",
+            "Projektnummer": "195939",
+            "Projektnamn": "Täby Park kv 1:3A",
+            "Kund": "Täby Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "571",
+            "Projektnummer": "195926",
+            "Projektnamn": "Täby Park kv 1:2",
+            "Kund": "Täby Kommun",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "572",
+            "Projektnummer": "193396",
+            "Projektnamn": "N-20137 Kabelverket 11 DP3",
+            "Kund": "AB Familjebostäder",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "573",
+            "Projektnummer": "191918",
+            "Projektnamn": "Centrala Brunnshög Huvuddel 3",
+            "Kund": "Lunds kommun",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "574",
+            "Projektnummer": "191915",
+            "Projektnamn": "Centrala Brunnshög Huvuddel 2",
+            "Kund": "Lunds kommun",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "575",
+            "Projektnummer": "191723",
+            "Projektnamn": "Centrala Brunnshög Huvuddel 1",
+            "Kund": "Lunds kommun",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "576",
+            "Projektnummer": "190279",
+            "Projektnamn": "Högsbo Sjukhus",
+            "Kund": "Skanska Sverige AB",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "577",
+            "Projektnummer": "185492",
+            "Projektnamn": "Organellen",
+            "Kund": "Besqab Projektutveckling AB",
+            "Projektledare": "",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "578",
+            "Projektnummer": "182567",
+            "Projektnamn": "Kv Humboldt",
+            "Kund": "Folkhem Trä AB",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "579",
+            "Projektnummer": "181154",
+            "Projektnamn": "Service 2019-2020 Valla Torg",
+            "Kund": "AB Stockholmshem",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "580",
+            "Projektnummer": "180202",
+            "Projektnamn": "N--20124 Kv. Palsternackan",
+            "Kund": "Lindbäcks Bygg AB",
+            "Projektledare": "Håkan Larsson",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "581",
+            "Projektnummer": "175745",
+            "Projektnamn": "20625 JM Silo omdragning stam",
+            "Kund": "JM AB",
+            "Projektledare": "",
+            "Projektstatus": "Technical Finished"
+        },
+        {
+            "id": "582",
+            "Projektnummer": "173240",
+            "Projektnamn": "N-20512 Vårdb Kallhäll Etapp 2",
+            "Kund": "Svenska Vårdbyggen Kallhäll AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "583",
+            "Projektnummer": "171977",
+            "Projektnamn": "2092 Kongahälla östra option 1",
+            "Kund": "Kungälvs Kommun",
+            "Projektledare": "",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "584",
+            "Projektnummer": "171604",
+            "Projektnamn": "763 The Brick",
+            "Kund": "Småa AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "585",
+            "Projektnummer": "169940",
+            "Projektnamn": "MVS Malmö Entreprenad",
+            "Kund": "733 VA Syd",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "586",
+            "Projektnummer": "164733",
+            "Projektnamn": "Västra Ursvik",
+            "Kund": "Sundbyberg Avfall och Vatten AB",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "587",
+            "Projektnummer": "164333",
+            "Projektnamn": "N-20098 Hallonbergen General N",
+            "Kund": "Sundbyberg Avfall och Vatten AB",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "588",
+            "Projektnummer": "156835",
+            "Projektnamn": "Ebbepark",
+            "Kund": "Sankt Kors Fastighets AB",
+            "Projektledare": "Victor Palmér",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "589",
+            "Projektnummer": "156820",
+            "Projektnamn": "Hotellet Ulriksdal",
+            "Kund": "Constrera AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "590",
+            "Projektnummer": "153967",
+            "Projektnamn": "Solstrålen 20047",
+            "Kund": "JM Entreprenad AB ",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "591",
+            "Projektnummer": "150659",
+            "Projektnamn": "20477Kv Persikan Projektering",
+            "Kund": "Exploateringskontoret",
+            "Projektledare": "Rasmus Westerborn",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "592",
+            "Projektnummer": "150087",
+            "Projektnamn": "Albano",
+            "Kund": "AB Svenska Bostäder",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "593",
+            "Projektnummer": "144406",
+            "Projektnamn": "Kv Proteinet",
+            "Kund": "Veidekke Entreprenad AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "594",
+            "Projektnummer": "133257",
+            "Projektnamn": "KV Laboratoriet Ursvik - 2011",
+            "Kund": "Järntorget Bygg AB",
+            "Projektledare": "Tärje Nyström",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "595",
+            "Projektnummer": "123888",
+            "Projektnamn": "N-693 Lindholmshamnen GN",
+            "Kund": "Fastighets AB Fribordet",
+            "Projektledare": "Patrik Segertoft",
+            "Projektstatus": "Administrative Finished"
+        },
+        {
+            "id": "596",
+            "Projektnummer": "119071",
+            "Projektnamn": "Bo1 Malmö docka 1-2",
+            "Kund": "Riberstads Samfällighetsförening",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "597",
+            "Projektnummer": "116242",
+            "Projektnamn": "Östberga Investering",
+            "Kund": "Brf Östberga",
+            "Projektledare": "Klas Leksell",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "598",
+            "Projektnummer": "113777",
+            "Projektnamn": "E-333 SOPSUG NDS",
+            "Kund": "Exploateringskontoret",
+            "Projektledare": "Julio Torrez",
+            "Projektstatus": "Production"
+        },
+        {
+            "id": "599",
+            "Projektnummer": "10138",
+            "Projektnamn": "Bagartorpsringen, Röromdragning",
+            "Kund": "Besqab Projektutveckling AB",
+            "Projektledare": "Tobias Sandström",
+            "Projektstatus": "Technical Finished"
+        }
+    ]
+}

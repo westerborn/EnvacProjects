@@ -1,0 +1,194 @@
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+        }
+
+        #container {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+
+
+
+
+
+#main-area {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center; /* Centrera tabellen */
+    gap: 20px; /* Se till att det är jämnt mellan rutorna */
+}
+
+        #main-content {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+		    width: 100%;
+        }
+
+//        #search-container {
+//            display: flex;
+//            width: 100%;
+//        }
+
+//       #search-input {
+//            flex-grow: 1;
+//            padding: 10px;
+//            border: 1px solid #ccc;
+//            border-radius: 5px 0 0 5px;
+//            box-sizing: border-box;
+//        }
+
+        #clear-search {
+            padding: 10px 15px;
+            border: 1px solid #ccc;
+            border-left: none;
+            border-radius: 0 5px 5px 0;
+            background-color: #f0f0f0;
+            cursor: pointer;
+        }
+
+        #project-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        #project-table th,
+        #project-table td {
+            border: 1px solid #ddd;
+            padding: 8px 8px;
+            text-align: left;
+            word-wrap: break-word;
+			cursor: pointer;
+        }
+
+        #no-results {
+            display: none;
+            text-align: center;
+            margin-top: 20px;
+            font-style: italic;
+            color: #777;
+        }
+
+        #link-container h2, #link-container-right h2 {
+			font-size: 1.5em;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        #link-container h3, #link-container-right h3 {
+            font-size: 0.8em;
+            color: #777;
+            margin-bottom: 10px;
+        }
+
+ #link-container, #link-container-right {
+    width: 100%;
+    max-width: 250px;
+    flex-grow: 1; /* Se till att de växer lika mycket */
+    margin: 0 20px !important; /* Jämnt avstånd från mitten */
+    padding: 10px !important; /* Se till att båda har samma padding */
+    overflow-y: auto;
+    max-height: 500px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+
+#link-container button, #link-container-right button {
+    font-size: 0.75rem; /* Mindre text */
+    padding: 3px 6px; /* Mindre knapphöjd och bredd */
+    height: auto; /* Anpassa höjden efter texten */
+	color: black !important;  /* Gör texten svart */
+    border: 1px solid black !important;  /* Svart ram istället för blå */
+    background-color: transparent !important; /* Ingen fyllning */
+}
+
+#link-container-right button.active {
+	color: black;
+}
+
+/* Sorteringsikoner */
+th.sorted-asc::after {
+    content: ' ▲'; /* Pil upp */
+    font-size: 0.8em;
+    color: #777;
+}
+
+th.sorted-desc::after {
+    content: ' ▼'; /* Pil ned */
+    font-size: 0.8em;
+    color: #777;
+}
+
+/* Dropdown för filtrering */
+.filter-dropdown {
+    max-height: 200px;
+    overflow-y: auto;
+    width: 200px;
+    font-size: 0.9em;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    padding: 10px;
+    z-index: 10;
+}
+.modal {
+    display: block;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Minska textstorleken för knappar */
+.btn {
+    font-size: 0.85rem; /* Mindre text */
+    padding: 5px 10px;  /* Mindre padding */
+}
+
+/* Minska textstorleken i tabellen */
+.table {
+    font-size: 0.85rem; /* Mindre tabelltext */
+}
+
+/* Minska textstorleken i popup-fönstret */
+.modal-content {
+    font-size: 0.85rem; /* Mindre text i popup */
+}
+
+/* Minska höjden på sökrutan */
+.input-group .form-control {
+    font-size: 0.85rem;
+    padding: 5px;
+}
+
+/* Minska höjden på tabellrader */
+.table td, .table th {
+    padding: 5px;
+}
+
+/* Markerad rad - gör bakgrunden mörkare grå */
+.selected-row {
+    background-color: #d6d6d6 !important; /* Mörkare grå färg */
+    color: black !important; /* Behåll textfärgen svart */
+}
+
+/* 🔹 Fix: Se till att markerad rad alltid får rätt färg */
+tr.selected-row, tr.selected-row td {
+    background-color: #b0b0b0 !important; /* Ännu mörkare grå */
+    color: black !important; /* Texten ska alltid vara svart */
+}
+
+/* 🔹 Överstyra Bootstrap table-striped så att markerade rader inte påverkas */
+.table-striped tbody tr.selected-row {
+    background-color: #b0b0b0 !important;
+}
+
+/* 🔹 Förhindra att Bootstrap hover-effekt tar över markerade rader */
+.table-hover tbody tr:hover.selected-row {
+    background-color: #909090 !important; /* Lite mörkare vid hover */
+}

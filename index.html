@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="sv"> <!-- Lägg till lang="sv" för bättre språkstöd -->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON från Excel</title>
+
+    <!-- Länka till CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Fuse.js för sökfunktion -->
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-4">
+    <div class="row justify-content-between">
+        <div class="col-md-3 d-flex justify-content-center">
+            <div id="link-container" class="p-3 border bg-light w-100"></div>
+        </div>
+        <div class="col-md-6">
+            <div id="main-area">
+                <div id="main-content">
+
+                    <!-- Sökfält -->
+                    <div class="input-group mb-3">
+                        <input type="text" id="search-input" class="form-control" placeholder="Sök efter projekt...">
+                        <button id="clear-search" class="btn btn-outline-dark btn-sm">Rensa</button>
+                    </div>
+
+                    <!-- Projekt-tabellen -->
+                    <table id="project-table" class="table table-hover">
+                        <thead class="table-light">
+                            <tr>
+                                <th data-column="Projektnummer">Projektnummer</th>
+                                <th data-column="Projektnamn">Projektnamn</th>
+                                <th data-column="Projektledare">Projektledare</th>
+								<th data-column="Projektledare">Anläggning</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                    
+                    <!-- Ingen träff i sökning -->
+                    <div id="no-results">Inga resultat hittades.</div>
+                    
+                    <!-- Debug-div, gömd som standard -->
+                    <div id="debug" style="display:none;"></div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="col-md-3 d-flex justify-content-center">
+			<div id="link-container-right" class="p-3 border bg-light"></div>
+        </div>
+    </div>
+</div>
+
+<!-- Huvud-JavaScript -->
+<script type="module" src="js/script.js"></script>
+
+<!-- Bootstrap Bundle JS (inkluderar Popper.js) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

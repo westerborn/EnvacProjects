@@ -1,0 +1,18 @@
+{
+    "employee": [
+        {
+            "Anställningsnummer": "1253",
+            "Namn": "Rasmus Westerborn",
+            "E-post": "rasmus.westerborn@envac.se",
+			"Telefonnummer": "073-180 72 96",
+			"Roll": "Projektledare"
+        },
+        {
+            "Anställningsnummer": "1111",
+            "Namn": "Julio Torrez",
+            "E-post": "test.test@envac.se",
+			"Telefonnummer": "070-000 00 00",
+			"Roll": "Projektledare"
+        }
+    ]
+}
