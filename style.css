@@ -6,36 +6,47 @@ body {
 }
 
 /* Stilar för mindre skärmar (t.ex. mobiler) */
-@media (max-width: 480px) {
-    body {
-        font-size: 16px;
-    }
-	.popup-buttons {
-	grid-template-columns: repeat(1, 1fr); /* 1 kolumn på riktigt små skärmar */
-    }
-    .container {
-        padding: 10px;
-    }
-    table {
-        font-size: 14px;
-    }
-}
+/* @media (max-width: 480px) { */
+    /* body { */
+        /* font-size: 16px; */
+    /* } */
+	/* .popup-buttons { */
+	/* grid-template-columns: repeat(1, 1fr); /* 1 kolumn på riktigt små skärmar */ */
+    /* } */
+    /* .container { */
+        /* padding: 10px; */
+    /* } */
+    /* table { */
+        /* font-size: 14px; */
+    /* } */
+/* } */
 
 /* Stilar för större skärmar (t.ex. surfplattor och datorer) */
-@media (min-width: 768px) {
-    body {
-        font-size: 18px;
-    }
-	.popup-buttons {
-		grid-template-columns: repeat(2, 1fr); /* 2 kolumner på mindre skärmar */
-    }
-    .container {
-        max-width: 960px;
-        margin: 0 auto;
+/* @media (min-width: 768px) { */
+    /* body { */
+        /* font-size: 18px; */
+    /* } */
+	/* .popup-buttons { */
+		/* grid-template-columns: repeat(2, 1fr); /* 2 kolumner på mindre skärmar */ */
+    /* } */
+    /* .container { */
+        /* max-width: 960px; */
+        /* margin: 0 auto; */
+    /* } */
+/* } */
+
+/* Anpassa för mobil och mindre skärmar */
+@media (max-width: 768px) {
+    .popup-buttons {
+        grid-template-columns: repeat(2, 1fr) !important; /* 2 kolumner på mindre skärmar */
     }
 }
 
-
+@media (max-width: 480px) {
+    .popup-buttons {
+        grid-template-columns: repeat(1, 1fr) !important; /* 1 kolumn på riktigt små skärmar */
+    }
+}
 
 
 .container {
@@ -55,18 +66,22 @@ body {
             max-width: 1200px;
             margin: 0 auto;
         }
+		
 .popup-buttons {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tre knappar per rad */
+    grid-template-columns: repeat(3, 1fr); /* Standard: 3 kolumner */
     gap: 10px;
     padding-bottom: 15px;
-	width: 100%;
+    width: 100%;
+    max-width: 600px; /* Begränsar bredden på knapplayouten */
+    margin: 0 auto;
 }
 
 .popup-buttons button {
     width: 100%;
-    padding: 10px;
+    padding: 12px;
     font-size: 14px;
+    text-align: center;
 }
 
 
@@ -186,6 +201,8 @@ body {
 /* Minska textstorleken i popup-fönstret */
 .modal-content {
     font-size: 0.85rem; /* Mindre text i popup */
+	max-width: 90%;
+	margin: auto;
 }
 
 /* Minska höjden på sökrutan */
