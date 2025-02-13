@@ -17,7 +17,12 @@ export function handleSearch(searchInput, tableBody, noResultsMessage) {
 
     let foundRows = 0;
     Array.from(tableBody.rows).forEach(row => {
-        const rowText = row.innerText.toLowerCase(); // Kombinera all text i raden
+        // const rowText = row.innerText.toLowerCase(); // Kombinera all text i raden
+		const rowText = Array.from(row.cells)
+    .slice(0, 3) // Tar bara de första tre kolumnerna (Projektnummer, Projektnamn, Projektledare)
+    .map(cell => cell.innerText.toLowerCase())
+    .join(" ");
+
         const matchesAllTerms = searchTerms.every(term => rowText.includes(term)); // Kontrollera att alla ord matchar
 
         if (matchesAllTerms) {

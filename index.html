@@ -1,9 +1,9 @@
-nva<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="sv"> <!-- Lägg till lang="sv" för bättre språkstöd -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EnvacProjects</title>
+    <title>Envac Project Portal</title>
 
     <!-- Länka till CSS -->
     <link rel="stylesheet" href="style.css">
@@ -16,20 +16,20 @@ nva<!DOCTYPE html>
 </head>
 <body>
 
-<div class="container mt-4">
-    <div class="row justify-content-between">
-        <div class="col-md-3 d-flex justify-content-center">
-            <div id="link-container" class="p-3 border bg-light w-100"></div>
-        </div>
-        <div class="col-md-6">
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
             <div id="main-area">
                 <div id="main-content">
+					<!-- Sticky Container som håller rubriken och sökfältet på plats -->
+					<div class="sticky-container">
+						<h1 class="text-center my-4 sticky-header">Envac Project Portal</h1>
+						<div class="input-group mb-3 sticky-search">
+							<input type="text" id="search-input" class="form-control" placeholder="Sök efter projekt...">
+							<button id="clear-search" class="btn btn-outline-dark btn-sm">Rensa</button>
+						</div>
+					</div>
 
-                    <!-- Sökfält -->
-                    <div class="input-group mb-3">
-                        <input type="text" id="search-input" class="form-control" placeholder="Sök efter projekt...">
-                        <button id="clear-search" class="btn btn-outline-dark btn-sm">Rensa</button>
-                    </div>
 
                     <!-- Projekt-tabellen -->
                     <table id="project-table" class="table table-hover">
@@ -38,7 +38,8 @@ nva<!DOCTYPE html>
                                 <th data-column="Projektnummer">Projektnummer</th>
                                 <th data-column="Projektnamn">Projektnamn</th>
                                 <th data-column="Projektledare">Projektledare</th>
-								<th data-column="Projektledare">Anläggning</th>
+								<!-- <th data-column="Anläggning" class="hidden-column">Anläggning</th> -->
+								<!-- <th data-column="Projektledare">Anläggning</th> -->
                             </tr>
                         </thead>
                         <tbody></tbody>
@@ -54,9 +55,9 @@ nva<!DOCTYPE html>
 
             </div>
         </div>
-        <div class="col-md-3 d-flex justify-content-center">
-			<div id="link-container-right" class="p-3 border bg-light"></div>
-        </div>
+        <!-- <div class="col-md-3 d-flex justify-content-center"> -->
+			<!-- <div id="link-container-right" class="p-3 border bg-light"></div> -->
+        <!-- </div> -->
     </div>
 </div>
 

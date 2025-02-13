@@ -50,47 +50,15 @@ export function createGenericLinks(linkContainer, count) {
 }
 
 
-
-
-
-export function createNameLinks(projects, searchInput, handleSearch, linkContainer) {
-    linkContainer.innerHTML = '';
-    const h2 = document.createElement('h2');
-    h2.textContent = 'Snabblänkar';
-    const h3 = document.createElement('h3');
-    h3.textContent = 'Projektledare';
-    linkContainer.appendChild(h2);
-    linkContainer.appendChild(h3);
-
-    const uniqueProjectLeaders = new Set();
-    projects.forEach(project => {
-        uniqueProjectLeaders.add(project.Projektledare);
-    });
-
-    const sortedProjectLeaders = Array.from(uniqueProjectLeaders).sort((a, b) => {
-        return a.localeCompare(b, 'sv');
-    });
-
-    sortedProjectLeaders.forEach(projectLeader => {
-        const linkButton = document.createElement('button');
-        linkButton.textContent = projectLeader;
-        linkButton.addEventListener('click', () => {
-            searchInput.value = projectLeader;
-            handleSearch();
-        });
-        linkButton.classList.add('btn', 'btn-outline-secondary', 'w-100', 'mb-2');
-        linkContainer.appendChild(linkButton);
-    });
-}
-
-function openJotformLink(formType) {
-    console.log(` Klick på ${formType}. Vald projekt:`, window.selectedProjectNumber);
+export function openJotformLink(formType) {
+    console.log(`🔹 Klick på ${formType}. Vald projekt:`, window.selectedProjectNumber);
 
     if (!window.selectedProjectNumber) {
         alert("Inget projekt är valt.");
         return;
     }
 
+    // Hämta projektdata
     const project = window.projectsData.find(p => String(p.Projektnummer).trim() === String(window.selectedProjectNumber).trim());
     if (!project) {
         alert("Projektet kunde inte hittas.");
@@ -101,11 +69,7 @@ function openJotformLink(formType) {
     const employee = window.employeesData.find(e => e.Namn === project.Projektledare);
 
     const jotformLink = generateJotformLink(project, details, employee, formType);
-    console.log(" Jotform-länk genererad:", jotformLink);
+    console.log("🔗 Jotform-länk genererad:", jotformLink);
 
-//	if (!window.jotformWindow || window.jotformWindow.closed) {
-//		window.jotformWindow = window.open(jotformLink, '_blank');
-//	}
-	
-	window.open(jotformLink, '_blank'); 
+    window.open(jotformLink, '_blank'); // Öppnar länken i en ny flik
 }

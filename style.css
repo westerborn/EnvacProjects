@@ -1,7 +1,51 @@
-        body {
-            font-family: sans-serif;
-            margin: 20px;
-        }
+/* Grundläggande stilar för alla skärmstorlekar */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Stilar för mindre skärmar (t.ex. mobiler) */
+@media (max-width: 767px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        padding: 10px;
+    }
+    table {
+        font-size: 14px;
+    }
+}
+
+/* Stilar för större skärmar (t.ex. surfplattor och datorer) */
+@media (min-width: 768px) {
+    body {
+        font-size: 18px;
+    }
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 600px) {
+    .popup-buttons {
+        grid-template-columns: repeat(2, 1fr); /* Två knappar per rad på mobil */
+    }
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap; /* Tillåter att element bryts till nästa rad */
+    justify-content: center; /* Centrerar innehållet */
+}
+
+.item {
+    flex: 1 1 300px; /* Elementen tar upp minst 300px bredd */
+    margin: 10px;
+}
 
         #container {
             display: flex;
@@ -9,8 +53,18 @@
             max-width: 1200px;
             margin: 0 auto;
         }
+.popup-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tre knappar per rad */
+    gap: 10px;
+    padding-bottom: 15px;
+}
 
-
+.popup-buttons button {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+}
 
 
 
@@ -20,6 +74,9 @@
     flex-grow: 1;
     justify-content: center; /* Centrera tabellen */
     gap: 20px; /* Se till att det är jämnt mellan rutorna */
+	max-width: 900px; /* Bestämmer en konstant maxbredd */
+	width: 100%;
+	margin: 0 auto; /* Centrerar mittendelen */
 }
 
         #main-content {
@@ -27,6 +84,7 @@
             display: flex;
             flex-direction: column;
 		    width: 100%;
+			min-height: 400px; /* Ser till att det alltid finns utrymme även vid få resultat */
         }
 
 //        #search-container {
@@ -53,6 +111,7 @@
 
         #project-table {
             width: 100%;
+			table-layout: fixed; /* Förhindrar att kolumner ändrar storlek */
             border-collapse: collapse;
             margin-top: 20px;
         }
@@ -64,7 +123,23 @@
             text-align: left;
             word-wrap: break-word;
 			cursor: pointer;
+			white-space: nowrap; /* Förhindrar radbrytningar */
+			overflow: hidden;
+			text-overflow: ellipsis; /* Lägger till "..." om texten är för lång */
         }
+		
+		/* Justera bredden på specifika kolumner */
+		#project-table th:nth-child(1), #project-table td:nth-child(1) {
+		width: 25%; /* Smalare första kolumn (Projektnummer) */
+		}
+
+		#project-table th:nth-child(2), #project-table td:nth-child(2) {
+		width: 50%; /* Projektnamn får mer utrymme */
+		}
+
+		#project-table th:nth-child(3), #project-table td:nth-child(3) {
+		width: 25%; /* Projektledare */
+		}
 
         #no-results {
             display: none;
@@ -74,45 +149,49 @@
             color: #777;
         }
 
-        #link-container h2, #link-container-right h2 {
-			font-size: 1.5em;
-            margin-top: 0;
-            margin-bottom: 0;
-        }
+        /* #link-container h2,  */
+		/* #link-container-right h2 { */
+			/* font-size: 1.5em; */
+            /* margin-top: 0; */
+            /* margin-bottom: 0; */
+        /* } */
 
-        #link-container h3, #link-container-right h3 {
-            font-size: 0.8em;
-            color: #777;
-            margin-bottom: 10px;
-        }
+        /* #link-container h3,  */
+		/* #link-container-right h3 { */
+            /* font-size: 0.8em; */
+            /* color: #777; */
+            /* margin-bottom: 10px; */
+        /* } */
 
- #link-container, #link-container-right {
-    width: 100%;
-    max-width: 250px;
-    flex-grow: 1; /* Se till att de växer lika mycket */
-    margin: 0 20px !important; /* Jämnt avstånd från mitten */
-    padding: 10px !important; /* Se till att båda har samma padding */
-    overflow-y: auto;
-    max-height: 500px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    box-sizing: border-box;
-}
+ /* #link-container,  */
+ /* #link-container-right { */
+    /* width: 100%; */
+    /* max-width: 250px; */
+    /* flex-grow: 1; /* Se till att de växer lika mycket */ */
+    /* margin: 0 20px !important; /* Jämnt avstånd från mitten */ */
+    /* padding: 10px !important; /* Se till att båda har samma padding */ */
+    /* overflow-y: auto; */
+    /* max-height: 500px; */
+    /* border: 1px solid #ccc; */
+    /* padding: 10px; */
+    /* box-sizing: border-box; */
+/* } */
 
 
 
-#link-container button, #link-container-right button {
-    font-size: 0.75rem; /* Mindre text */
-    padding: 3px 6px; /* Mindre knapphöjd och bredd */
-    height: auto; /* Anpassa höjden efter texten */
-	color: black !important;  /* Gör texten svart */
-    border: 1px solid black !important;  /* Svart ram istället för blå */
-    background-color: transparent !important; /* Ingen fyllning */
-}
+/* #link-container button,  */
+/* #link-container-right button { */
+    /* font-size: 0.75rem; /* Mindre text */ */
+    /* padding: 3px 6px; /* Mindre knapphöjd och bredd */ */
+    /* height: auto; /* Anpassa höjden efter texten */ */
+	/* color: black !important;  /* Gör texten svart */ */
+    /* border: 1px solid black !important;  /* Svart ram istället för blå */ */
+    /* background-color: transparent !important; /* Ingen fyllning */ */
+/* } */
 
-#link-container-right button.active {
-	color: black;
-}
+/* #link-container-right button.active { */
+	/* color: black; */
+/* } */
 
 /* Sorteringsikoner */
 th.sorted-asc::after {
@@ -191,4 +270,40 @@ tr.selected-row, tr.selected-row td {
 /* 🔹 Förhindra att Bootstrap hover-effekt tar över markerade rader */
 .table-hover tbody tr:hover.selected-row {
     background-color: #909090 !important; /* Lite mörkare vid hover */
+}
+
+.sticky-container {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+    /* padding: 10px 0; */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background-color: white; /* Ser till att bakgrunden inte blir genomskinlig */
+    z-index: 100; /* Håller den över andra element */
+    /* padding: 10px 0; */
+    text-align: center;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Liten skugga för att markera sektionen */ */
+}
+
+.sticky-search {
+    position: sticky;
+    /* top: 50px; /* Placera den under rubriken */ */
+    background-color: white;
+    z-index: 100;
+    /* padding: 10px 0; */
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+}
+
+.hidden-column {
+    display: none;
+}
+
+.hidden-column + td {
+    display: none;
 }

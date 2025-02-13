@@ -1,10 +1,13 @@
 import { fetchData } from './fetchData.js';
 import { populateTable } from './tableUtils.js';
 import { handleSearch } from './search.js';
-import { addSortingAndFiltering } from './sort.js'; // Korrekt import!
-import { createNameLinks, createGenericLinks } from './linkGeneration.js';
+// import { addSortingAndFiltering } from './sort.js'; // Korrekt import!
+// import { createNameLinks } from './linkGeneration.js';
+import { createGenericLinks } from './linkGeneration.js';
 import { enableRowSelection } from './rowSelection.js';
 import { generateJotformLink } from './jotformLinks.js';
+import { openJotformLink } from './linkGeneration.js';
+
 
 
 // Hämta HTML-element
@@ -15,7 +18,7 @@ const noResultsMessage = document.getElementById('no-results');
 const searchInput = document.getElementById('search-input');
 const clearSearchButton = document.getElementById('clear-search');
 const linkContainerLeft = document.getElementById('link-container');
-const linkContainerRight = document.getElementById('link-container-right');
+// const linkContainerRight = document.getElementById('link-container-right');
 
 let projectsData = [];
 let detailsData = [];
@@ -90,11 +93,11 @@ async function init() {
         searchInput.addEventListener('keyup', () => handleSearch(searchInput, tableBody, noResultsMessage));
 
         // **Lägg till sortering & filtrering**
-        addSortingAndFiltering(table, projectsData, populateTable);
+        // addSortingAndFiltering(table, projectsData, populateTable);
 
         // **Lägg till snabblänkar**
-        createNameLinks(projectsData, searchInput, () => handleSearch(searchInput, tableBody, noResultsMessage), linkContainerLeft);
-        createGenericLinks(linkContainerRight, 10);
+        // createNameLinks(projectsData, searchInput, () => handleSearch(searchInput, tableBody, noResultsMessage), linkContainerLeft);
+        // createGenericLinks(linkContainerRight, 10);
 
         // **Aktivera radval**
         enableRowSelection(tableBody);
@@ -104,7 +107,7 @@ async function init() {
             searchInput.value = '';
             handleSearch(searchInput, tableBody, noResultsMessage);
             tableBody.querySelectorAll('tr').forEach(row => row.classList.remove('selected-row'));
-            setGenericLinksState(false);
+            // setGenericLinksState(false);
         });
 
         // **Hantering av projektval**
@@ -116,11 +119,18 @@ tableBody.addEventListener('click', (event) => {
         clickedRow.classList.add('selected-row');
 
         window.selectedProjectNumber = clickedRow.cells[0].textContent.trim();
-        console.log("✅ Vald projekt:", window.selectedProjectNumber); // Debug-logg
+        console.log("✅ Vald projekt:", window.selectedProjectNumber);
 
-        setGenericLinksState(true); // Aktivera länkarna
+        // setGenericLinksState(true);
+
+        // Hämta projektdata och öppna popupen
+        const project = window.projectsData.find(p => String(p.Projektnummer).trim() === String(window.selectedProjectNumber).trim());
+        const details = window.detailsData.find(d => d.Projektnummer === project.Projektnummer);
+        const employee = window.employeesData.find(e => e.Namn === project.Projektledare);
+
+        showProjectDetailsPopup(project, details, employee);
     } else {
-        setGenericLinksState(false);
+        // setGenericLinksState(false);
         window.selectedProjectNumber = null;
     }
 });
@@ -202,13 +212,13 @@ if (arbetsberedningButton) {
 }
 
 // **Hantering av generiska länkar**
-function setGenericLinksState(enabled) {
-    const genericLinks = linkContainerRight.querySelectorAll('button');
-    genericLinks.forEach(link => {
-        link.disabled = !enabled;
-        link.classList.toggle('active', enabled);
-    });
-}
+// function setGenericLinksState(enabled) {
+    // const genericLinks = linkContainerRight.querySelectorAll('button');
+    // genericLinks.forEach(link => {
+        // link.disabled = !enabled;
+        // link.classList.toggle('active', enabled);
+    // });
+// }
 
 // **Visa popup med projektdetaljer**
 function showProjectDetailsPopup(project, details, employee) {
@@ -229,6 +239,26 @@ function showProjectDetailsPopup(project, details, employee) {
         <p><strong>Kund:</strong> ${project.Kund}</p>
         <p><strong>Projektstatus:</strong> ${project.Projektstatus}</p>
     `;
+
+const buttonContainer = `
+    <div class="popup-buttons">
+        <button class="btn btn-primary jotform-button" data-form="Arbetsberedning">Arbetsberedning</button>
+        <button class="btn btn-primary jotform-button" data-form="Fråga-Svar">Fråga-Svar</button>
+        <button class="btn btn-primary jotform-button" data-form="Egenkontroller projektledare">Egenkontroller</button>
+        
+        <button class="btn btn-secondary jotform-button" data-form="Egenkontroll Funktionstest">Funktionstest</button>
+        <button class="btn btn-secondary jotform-button" data-form="Servicebesiktning">Servicebesiktning</button>
+        <button class="btn btn-secondary jotform-button" data-form="Överlämning Service">Överlämning</button>
+        
+        <button class="btn btn-light disabled">Kommande 1</button>
+        <button class="btn btn-light disabled">Kommande 2</button>
+        <button class="btn btn-light disabled">Kommande 3</button>
+    </div>
+`;
+
+
+// Lägg till knapparna högst upp i popupen
+popupContent = buttonContainer + popupContent;
 
     // Om projektledaren finns i employee.json, lägg till deras information
     if (employee) {
@@ -270,6 +300,17 @@ function showProjectDetailsPopup(project, details, employee) {
             </div>
         </div>
     `;
+
+// Lägger till event listeners på alla knappar i popupen
+setTimeout(() => {
+    document.querySelectorAll('.jotform-button').forEach(button => {
+        button.addEventListener('click', () => {
+            openJotformLink(button.getAttribute('data-form'));
+        });
+    });
+}, 100);
+
+
 
     document.body.appendChild(popup);
 
