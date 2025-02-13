@@ -6,9 +6,12 @@ body {
 }
 
 /* Stilar för mindre skärmar (t.ex. mobiler) */
-@media (max-width: 767px) {
+@media (max-width: 480px) {
     body {
         font-size: 16px;
+    }
+	.popup-buttons {
+	grid-template-columns: repeat(1, 1fr); /* 1 kolumn på riktigt små skärmar */
     }
     .container {
         padding: 10px;
@@ -23,17 +26,16 @@ body {
     body {
         font-size: 18px;
     }
+	.popup-buttons {
+		grid-template-columns: repeat(2, 1fr); /* 2 kolumner på mindre skärmar */
+    }
     .container {
         max-width: 960px;
         margin: 0 auto;
     }
 }
 
-@media (max-width: 600px) {
-    .popup-buttons {
-        grid-template-columns: repeat(2, 1fr); /* Två knappar per rad på mobil */
-    }
-}
+
 
 
 .container {
@@ -58,6 +60,7 @@ body {
     grid-template-columns: repeat(3, 1fr); /* Tre knappar per rad */
     gap: 10px;
     padding-bottom: 15px;
+	width: 100%;
 }
 
 .popup-buttons button {
@@ -149,62 +152,8 @@ body {
             color: #777;
         }
 
-        /* #link-container h2,  */
-		/* #link-container-right h2 { */
-			/* font-size: 1.5em; */
-            /* margin-top: 0; */
-            /* margin-bottom: 0; */
-        /* } */
-
-        /* #link-container h3,  */
-		/* #link-container-right h3 { */
-            /* font-size: 0.8em; */
-            /* color: #777; */
-            /* margin-bottom: 10px; */
-        /* } */
-
- /* #link-container,  */
- /* #link-container-right { */
-    /* width: 100%; */
-    /* max-width: 250px; */
-    /* flex-grow: 1; /* Se till att de växer lika mycket */ */
-    /* margin: 0 20px !important; /* Jämnt avstånd från mitten */ */
-    /* padding: 10px !important; /* Se till att båda har samma padding */ */
-    /* overflow-y: auto; */
-    /* max-height: 500px; */
-    /* border: 1px solid #ccc; */
-    /* padding: 10px; */
-    /* box-sizing: border-box; */
-/* } */
 
 
-
-/* #link-container button,  */
-/* #link-container-right button { */
-    /* font-size: 0.75rem; /* Mindre text */ */
-    /* padding: 3px 6px; /* Mindre knapphöjd och bredd */ */
-    /* height: auto; /* Anpassa höjden efter texten */ */
-	/* color: black !important;  /* Gör texten svart */ */
-    /* border: 1px solid black !important;  /* Svart ram istället för blå */ */
-    /* background-color: transparent !important; /* Ingen fyllning */ */
-/* } */
-
-/* #link-container-right button.active { */
-	/* color: black; */
-/* } */
-
-/* Sorteringsikoner */
-th.sorted-asc::after {
-    content: ' ▲'; /* Pil upp */
-    font-size: 0.8em;
-    color: #777;
-}
-
-th.sorted-desc::after {
-    content: ' ▼'; /* Pil ned */
-    font-size: 0.8em;
-    color: #777;
-}
 
 /* Dropdown för filtrering */
 .filter-dropdown {
