@@ -69,7 +69,7 @@ body {
 		
 .popup-buttons {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Standard: 3 kolumner */
+    grid-template-columns: repeat(2, 1fr); /* Standard: 3 kolumner */
     gap: 10px;
     padding-bottom: 15px;
     width: 100%;
