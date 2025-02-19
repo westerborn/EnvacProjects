@@ -246,9 +246,9 @@ const buttonContainer = `
         <button class="btn btn-primary jotform-button" data-form="Fråga-Svar">Fråga-Svar</button>
         <button class="btn btn-primary jotform-button" data-form="Egenkontroller projektledare">Egenkontroller</button>
         
-        <button class="btn btn-secondary jotform-button" data-form="Egenkontroll Funktionstest">Funktionstest</button>
-        <button class="btn btn-secondary jotform-button" data-form="Servicebesiktning">Servicebesiktning</button>
-        <button class="btn btn-secondary jotform-button" data-form="Överlämning Service">Överlämning</button>
+        <button class="btn btn-primary jotform-button" data-form="Egenkontroll Funktionstest">Funktionstest<br>Validering</button>
+        <button class="btn btn-primary jotform-button" data-form="Servicebesiktning">Servicebesiktning</button>
+        <button class="btn btn-primary jotform-button" data-form="Överlämning Service">Överlämning</button>
         
         <button class="btn btn-light disabled">Kommande 1</button>
         <button class="btn btn-light disabled">Kommande 2</button>
@@ -323,6 +323,116 @@ setTimeout(() => {
         document.body.removeChild(popup);
     });
 }
+
+    // Funktion för att uppdatera antalet valda filter i knappen
+function updateDropdownButton() {
+    const totalStatuses = document.querySelectorAll(".status-checkbox").length; // Räkna alla statusar
+    const checkedCount = document.querySelectorAll(".status-checkbox:checked").length;
+    document.getElementById("status-dropdown-btn").textContent = `Status (${checkedCount}/${totalStatuses})`;
+}
+
+
+document.addEventListener("DOMContentLoaded", function () {
+	updateDropdownButton(); // Uppdatera knappen direkt vid sidladdning
+		
+    const dropdownBtn = document.getElementById("status-dropdown-btn");
+    const dropdownMenu = document.getElementById("status-dropdown-menu");
+    const checkboxes = document.querySelectorAll(".status-checkbox");
+	
+    // Se till att endast "Production" är markerad när sidan laddas
+    document.querySelectorAll(".status-checkbox").forEach(checkbox => {
+        if (checkbox.value === "Production") {
+            checkbox.checked = true;
+        } else {
+            checkbox.checked = false;
+        }
+    });
+
+    updateTable(); // Uppdatera tabellen så att endast "Production" visas
+
+    // Öppna/stäng dropdown när man klickar på knappen
+    dropdownBtn.addEventListener("click", function () {
+        dropdownMenu.style.display = dropdownMenu.style.display === "block" ? "none" : "block";
+        dropdownBtn.parentElement.classList.toggle("open");
+    });
+
+    // Stäng dropdown om man klickar utanför
+    document.addEventListener("click", function (event) {
+        if (!dropdownBtn.contains(event.target) && !dropdownMenu.contains(event.target)) {
+            dropdownMenu.style.display = "none";
+            dropdownBtn.parentElement.classList.remove("open");
+        }
+    });
+
+    // Lägg till event listeners på alla kryssrutor
+    checkboxes.forEach(checkbox => {
+        checkbox.addEventListener("change", updateTable);
+    });
+
+    // Uppdatera knappen från början
+    // updateDropdownButton();
+});
+
+document.querySelectorAll('.status-checkbox').forEach(checkbox => {
+    checkbox.addEventListener('change', () => handleSearch(
+        document.getElementById("search-input"),
+        document.getElementById("project-table").getElementsByTagName("tbody")[0],
+        document.getElementById("no-results")
+    ));
+});
+
+
+
+document.getElementById("search-input").addEventListener("input", updateTable);
+
+document.querySelectorAll('.status-checkbox').forEach(checkbox => {
+    checkbox.addEventListener("change", updateTable);
+});
+
+
+
+function updateTable() {
+	updateDropdownButton(); // 🔹 Uppdatera status-knappen först
+    const searchInput = document.getElementById("search-input");
+    const searchTerm = searchInput.value.trim().toLowerCase();
+
+    // Hämta alla valda statusar
+    const selectedStatuses = Array.from(document.querySelectorAll('.status-checkbox:checked'))
+        .map(checkbox => checkbox.value.toLowerCase());
+
+    const tableRows = document.querySelectorAll("#project-table tbody tr");
+
+    let foundRows = 0;
+    tableRows.forEach(row => {
+        const projectStatus = row.getAttribute("data-status")?.toLowerCase();
+        const rowText = Array.from(row.cells)
+            .slice(0, 3) // Tar bara de tre första kolumnerna
+            .map(cell => cell.innerText.toLowerCase())
+            .join(" ");
+
+        const matchesSearch = searchTerm === "" || rowText.includes(searchTerm); // Om sökning är tom, visa allt
+        const matchesStatus = selectedStatuses.includes(projectStatus); // Filtrera på status
+
+        if (matchesSearch && matchesStatus) {
+            row.style.display = ""; // Visa raden om båda matchar
+            foundRows++;
+        } else {
+            row.style.display = "none"; // Dölj raden annars
+        }
+    });
+
+    updateDropdownButton();
+
+    // Visa eller dölj "Inga resultat"-meddelandet
+    const noResultsMessage = document.getElementById("no-results");
+    if (foundRows === 0) {
+        noResultsMessage.style.display = "block";
+        noResultsMessage.textContent = "Inga matchande projekt hittades.";
+    } else {
+        noResultsMessage.style.display = "none";
+    }
+}
+
 
 
 // **Starta applikationen**

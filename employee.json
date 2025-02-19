@@ -1,18 +1,277 @@
 {
     "employee": [
         {
-            "AnstÃ¤llningsnummer": "1253",
-            "Namn": "Rasmus Westerborn",
-            "E-post": "rasmus.westerborn@envac.se",
-			"Telefonnummer": "073-180 72 96",
-			"Roll": "Projektledare"
+            "id": "1",
+            "Namn": "Håkan Larsson",
+            "E-post": "hakan.larsson@envac.se",
+            "Telefonnummer": "070-583 48 52",
+            "Roll": "Projektledare"
         },
         {
-            "AnstÃ¤llningsnummer": "1111",
+            "id": "2",
+            "Namn": "Johan Ilis",
+            "E-post": "johan.ilis@envac.se",
+            "Telefonnummer": "076-840 24 02",
+            "Roll": "Projektledare"
+        },
+        {
+            "id": "3",
+            "Namn": "Stefan Nordin",
+            "E-post": "stefan.nordin@envac.se",
+            "Telefonnummer": "070-284 45 94",
+            "Roll": "Projektledare"
+        },
+        {
+            "id": "4",
+            "Namn": "Jocob Johansson",
+            "E-post": "jacob.johansson@envac.se",
+            "Telefonnummer": "070-292 33 73",
+            "Roll": "Projektledare"
+        },
+        {
+            "id": "5",
+            "Namn": "Fredrik Ahlén",
+            "E-post": "fredrik.ahlen@envac.se",
+            "Telefonnummer": "073-519 99 66",
+            "Roll": "Projektör"
+        },
+        {
+            "id": "6",
+            "Namn": "Rasmus Westerborn",
+            "E-post": "rasmus.westerborn@envac.se",
+            "Telefonnummer": "073-180 72 96",
+            "Roll": "Projektledare"
+        },
+        {
+            "id": "7",
+            "Namn": "Tobias Sandström",
+            "E-post": "tobias.sandstrom@envac.se",
+            "Telefonnummer": "070-977 17 61",
+            "Roll": "Projektledare"
+        },
+        {
+            "id": "8",
+            "Namn": "Mikael Hjelte",
+            "E-post": "mikael.hjelte@envac.se",
+            "Telefonnummer": "076-840 24 01",
+            "Roll": ""
+        },
+        {
+            "id": "9",
+            "Namn": "Tärje Nyström",
+            "E-post": "terje.nystrom@envac.se",
+            "Telefonnummer": "076-610 31 87",
+            "Roll": "Projektledare"
+        },
+        {
+            "id": "10",
+            "Namn": "Stefan Hedin",
+            "E-post": "stefan.hedin@envac.se",
+            "Telefonnummer": "000-000 00 00",
+            "Roll": ""
+        },
+        {
+            "id": "11",
+            "Namn": "Li Ekroth",
+            "E-post": "li.ekroth@envac.se",
+            "Telefonnummer": "070-977 90 54",
+            "Roll": ""
+        },
+        {
+            "id": "12",
+            "Namn": "Joakim Nyholm",
+            "E-post": "joakim.nyholm@envac.se",
+            "Telefonnummer": "072-151 60 56",
+            "Roll": "Projektledare"
+        },
+        {
+            "id": "13",
             "Namn": "Julio Torrez",
-            "E-post": "test.test@envac.se",
-			"Telefonnummer": "070-000 00 00",
-			"Roll": "Projektledare"
+            "E-post": "julio.torrez@envac.se",
+            "Telefonnummer": "072-467 38 60",
+            "Roll": "Projektledare"
+        },
+        {
+            "id": "14",
+            "Namn": "Ali Mohammed",
+            "E-post": "ali.mohammed@envac.se",
+            "Telefonnummer": "073-944 01 91",
+            "Roll": "Projektledare"
+        },
+        {
+            "id": "15",
+            "Namn": "Mårten Sonnerup",
+            "E-post": "marten.sonnerup@envac.se",
+            "Telefonnummer": "000-000 00 00",
+            "Roll": "Projektledare"
+        },
+        {
+            "id": "16",
+            "Namn": "Henrik Andersson",
+            "E-post": "henrik.andersson@envac.se",
+            "Telefonnummer": "000-000 00 00",
+            "Roll": ""
+        },
+        {
+            "id": "17",
+            "Namn": "Klas Leksell",
+            "E-post": "klas.leksell@envac.se",
+            "Telefonnummer": "070-817 94 00",
+            "Roll": ""
+        },
+        {
+            "id": "18",
+            "Namn": "Kurt Bergström",
+            "E-post": "kurt.bergstrom@envac.se",
+            "Telefonnummer": "070-676 80 24",
+            "Roll": "Projektledare"
+        },
+        {
+            "id": "19",
+            "Namn": "Patrik Segertoft",
+            "E-post": "patrik.segertoft@envac.se",
+            "Telefonnummer": "070-522 75 15",
+            "Roll": "Projektledare"
+        },
+        {
+            "id": "20",
+            "Namn": "Susanne Klintred",
+            "E-post": "susanne.klintred@envac.se",
+            "Telefonnummer": "070-531 81 87",
+            "Roll": "Projektledare"
+        },
+        {
+            "id": "21",
+            "Namn": "Tobias Lindberg",
+            "E-post": "tobias.lindberg@envac.se",
+            "Telefonnummer": "076-048 08 57",
+            "Roll": "Projektör"
+        },
+        {
+            "id": "22",
+            "Namn": "Victor Palmér",
+            "E-post": "victor.palmer@envac.se",
+            "Telefonnummer": "070-895 35 90",
+            "Roll": "Projektledare"
+        },
+        {
+            "id": "23",
+            "Namn": "Daniel Skott",
+            "E-post": "daniel.skott@envac.se",
+            "Telefonnummer": "073-033 98 90",
+            "Roll": "Projektör"
+        },
+        {
+            "id": "24",
+            "Namn": "Daniel Dimitriev",
+            "E-post": "daniel.dimitriev@envac.se",
+            "Telefonnummer": "000-000 00 00",
+            "Roll": "Projektledare"
+        },
+        {
+            "id": "25",
+            "Namn": "Lars-Göran Andersson",
+            "E-post": "lars-goran.andersson@envac.se",
+            "Telefonnummer": "070-839 08 88",
+            "Roll": "Projektör"
+        },
+        {
+            "id": "26",
+            "Namn": "Magnus Sjöstrand",
+            "E-post": "magnus.sjostrand@envac.se",
+            "Telefonnummer": "000-000 00 00",
+            "Roll": ""
+        },
+        {
+            "id": "27",
+            "Namn": "Hanna Snaar",
+            "E-post": "hanna.snaar@envac.se",
+            "Telefonnummer": "000-000 00 00",
+            "Roll": ""
+        },
+        {
+            "id": "28",
+            "Namn": "Olliwer Lettfält",
+            "E-post": "olliwer.lettfalt@envac.se",
+            "Telefonnummer": "000-000 00 00",
+            "Roll": ""
+        },
+        {
+            "id": "29",
+            "Namn": "John Seiger",
+            "E-post": "john.seiger@envac.se",
+            "Telefonnummer": "000-000 00 00",
+            "Roll": ""
+        },
+        {
+            "id": "30",
+            "Namn": "Henrik Reutgard",
+            "E-post": "henrik.reutgard@envac.se",
+            "Telefonnummer": "000-000 00 00",
+            "Roll": ""
+        },
+        {
+            "id": "31",
+            "Namn": "Joacim Rydbeck",
+            "E-post": "joacim.rydbeck@envac.se",
+            "Telefonnummer": "000-000 00 00",
+            "Roll": ""
+        },
+        {
+            "id": "32",
+            "Namn": "Magnus Lundström",
+            "E-post": "magnus.lundstrom@envac.se",
+            "Telefonnummer": "000-000 00 00",
+            "Roll": ""
+        },
+        {
+            "id": "33",
+            "Namn": "Jacob Runneberger",
+            "E-post": "jacob.runneberger@envac.se",
+            "Telefonnummer": "000-000 00 00",
+            "Roll": ""
+        },
+        {
+            "id": "34",
+            "Namn": "Mattias Oscarsson",
+            "E-post": "mattias.oscarsson@envac.se",
+            "Telefonnummer": "000-000 00 00",
+            "Roll": ""
+        },
+        {
+            "id": "35",
+            "Namn": "Stefan Jansson",
+            "E-post": "stefan.jansson@envac.se",
+            "Telefonnummer": "072-317 90 00",
+            "Roll": "Projektledare"
+        },
+        {
+            "id": "36",
+            "Namn": "NN",
+            "E-post": "nn.nn@envac.se",
+            "Telefonnummer": "000-000 00 00",
+            "Roll": ""
+        },
+        {
+            "id": "37",
+            "Namn": "Christina Davidsson",
+            "E-post": "christina.davidsson@envac.se",
+            "Telefonnummer": "000-000 00 00",
+            "Roll": ""
+        },
+        {
+            "id": "38",
+            "Namn": "Torbjörn Sallander",
+            "E-post": "torbjorn.sallander@envac.se",
+            "Telefonnummer": "000-000 00 00",
+            "Roll": ""
+        },
+        {
+            "id": "39",
+            "Namn": "Alexander Aspen",
+            "E-post": "alexander.aspen@envac.se",
+            "Telefonnummer": "000-000 00 00",
+            "Roll": "Projektledare"
         }
     ]
 }

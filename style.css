@@ -69,7 +69,7 @@ body {
 		
 .popup-buttons {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Standard: 3 kolumner */
+    grid-template-columns: repeat(3, 1fr); /* Standard: 3 kolumner */
     gap: 10px;
     padding-bottom: 15px;
     width: 100%;
@@ -84,6 +84,18 @@ body {
     text-align: center;
 }
 
+.header-container {
+    display: flex;
+    align-items: center; /* Centrera vertikalt */
+    justify-content: center; /* Centrera hela blocket */
+    gap: 10px; /* Mellanrum mellan logga och rubrik */
+    padding: 10px 0;
+}
+
+.header-logo {
+    height: 40px; /* Justera storlek på loggan */
+    cursor: pointer; /* Gör det tydligt att det går att klicka */
+}
 
 
 
@@ -148,15 +160,19 @@ body {
 		
 		/* Justera bredden på specifika kolumner */
 		#project-table th:nth-child(1), #project-table td:nth-child(1) {
-		width: 25%; /* Smalare första kolumn (Projektnummer) */
+		width: 20%; /* Smalare första kolumn (Projektnummer) */
 		}
 
 		#project-table th:nth-child(2), #project-table td:nth-child(2) {
-		width: 50%; /* Projektnamn får mer utrymme */
+		width: 45%; /* Projektnamn får mer utrymme */
 		}
 
 		#project-table th:nth-child(3), #project-table td:nth-child(3) {
-		width: 25%; /* Projektledare */
+		width: 20%; /* Projektledare */
+		}
+
+		#project-table th:nth-child(4), #project-table td:nth-child(4) {
+		width: 15%; /* Projektstatus */
 		}
 
         #no-results {
@@ -272,4 +288,104 @@ tr.selected-row, tr.selected-row td {
 
 .hidden-column + td {
     display: none;
+}
+
+#status-dropdown-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px 0; /* Skapar avstånd mellan sökfält och resultat */
+}
+
+#status-dropdown-btn {
+    width: 150px; /* Gör knappen bredare */
+    text-align: center;
+    cursor: pointer;
+}
+
+.status-dropdown {
+    display: none; /* Dölj menyn som standard */
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    min-width: 200px;
+    z-index: 10;
+}
+
+.status-dropdown label {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+.status-dropdown input {
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+/* Visa dropdown när den är öppen */
+#status-dropdown-container.open .status-dropdown {
+    display: block;
+}
+
+/* Stil för statuskolumnen */
+.status-cell {
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    white-space: nowrap; /* Förhindrar radbrytning */
+}
+
+/* Anpassa färg beroende på status */
+.status-cell:contains("Preparation") {
+    color: #ffc107; /* Gul */
+}
+
+.status-cell:contains("Production") {
+    color: #28a745; /* Grön */
+}
+
+.status-cell:contains("Technical Finished") {
+    color: #007bff; /* Blå */
+}
+
+.status-cell:contains("Administrative Finished") {
+    color: #dc3545; /* Röd */
+}
+
+/* Gör dropdown-knappen snyggare */
+#status-dropdown-btn {
+    min-width: 180px;
+    text-align: center;
+}
+
+/* Anpassa dropdown-listan */
+#status-dropdown-menu {
+    display: none; /* Dold som standard */
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    min-width: 200px;
+    z-index: 100;
+}
+
+/* Visa dropdown när den är öppen */
+#status-dropdown-container.open #status-dropdown-menu {
+    display: block;
+}
+
+/* Stil för dropdown-ikonen */
+#status-dropdown-btn::after {
+    content: " ▼";
+    font-size: 12px;
+}
+
+/* När dropdown är öppen, ändra pilen */
+#status-dropdown-container.open #status-dropdown-btn::after {
+    content: " ▲";
 }

@@ -6,8 +6,12 @@ export function handleSearch(searchInput, tableBody, noResultsMessage) {
         return;
     }
 
-    if (!searchTerm) {
-        // Visa alla rader om sökfältet är tomt
+    // Hämta alla valda statusar
+    const selectedStatuses = Array.from(document.querySelectorAll('.status-checkbox:checked'))
+        .map(checkbox => checkbox.value.toLowerCase());
+
+    if (!searchTerm && selectedStatuses.length === 5) {
+        // Visa alla rader om sökfältet är tomt och alla statusar är valda
         Array.from(tableBody.rows).forEach(row => (row.style.display = ""));
         noResultsMessage.style.display = "none";
         return;
@@ -17,19 +21,22 @@ export function handleSearch(searchInput, tableBody, noResultsMessage) {
 
     let foundRows = 0;
     Array.from(tableBody.rows).forEach(row => {
-        // const rowText = row.innerText.toLowerCase(); // Kombinera all text i raden
-		const rowText = Array.from(row.cells)
-    .slice(0, 3) // Tar bara de första tre kolumnerna (Projektnummer, Projektnamn, Projektledare)
-    .map(cell => cell.innerText.toLowerCase())
-    .join(" ");
+        const projectStatus = row.getAttribute("data-status")?.toLowerCase(); // Hämta status på raden
+
+        // Hämta endast Projektnummer, Projektnamn och Projektledare för sökning
+        const rowText = Array.from(row.cells)
+            .slice(0, 3) // Tar bara de första tre kolumnerna
+            .map(cell => cell.innerText.toLowerCase())
+            .join(" ");
 
         const matchesAllTerms = searchTerms.every(term => rowText.includes(term)); // Kontrollera att alla ord matchar
+        const statusMatch = selectedStatuses.includes(projectStatus); // Kontrollera att status är vald
 
-        if (matchesAllTerms) {
-            row.style.display = ""; // Visa raden om alla ord hittas
+        if (matchesAllTerms && statusMatch) {
+            row.style.display = ""; // Visa raden om både sökning och status stämmer
             foundRows++;
         } else {
-            row.style.display = "none"; // Dölj raden om något ord saknas
+            row.style.display = "none"; // Dölj raden om den inte matchar båda
         }
     });
 
