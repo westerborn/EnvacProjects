@@ -244,11 +244,11 @@ const buttonContainer = `
     <div class="popup-buttons">
         <button class="btn btn-primary jotform-button" data-form="Arbetsberedning">Arbetsberedning</button>
         <button class="btn btn-primary jotform-button" data-form="Fråga-Svar">Fråga-Svar</button>
-        <button class="btn btn-primary jotform-button" data-form="Egenkontroller projektledare">Egenkontroller</button>
+        <button class="btn btn-primary jotform-button" data-form="Egenkontroller projektledare">Egenkontroll PL</button>
         
-        <button class="btn btn-primary jotform-button" data-form="Egenkontroll Funktionstest">Funktionstest<br>Validering</button>
+        <button class="btn btn-primary jotform-button" data-form="Egenkontroll Funktionstest">Validering</button>
         <button class="btn btn-primary jotform-button" data-form="Servicebesiktning">Servicebesiktning</button>
-        <button class="btn btn-primary jotform-button" data-form="Överlämning Service">Överlämning</button>
+        <button class="btn btn-primary jotform-button" data-form="Anteckning PL">Anteckning PL</button>
         
         <button class="btn btn-light disabled">Kommande 1</button>
         <button class="btn btn-light disabled">Kommande 2</button>

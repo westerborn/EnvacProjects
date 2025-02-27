@@ -22,8 +22,8 @@ export function generateJotformLink(project, details, employee, formType) {
         case "Servicebesiktning":
             jotformBaseUrl = "https://form.jotform.com/YOUR_SERVICEBESIKTNING_FORM_ID"; // Servicebesiktning
             break;
-        case "Överlämning Service":
-            jotformBaseUrl = "https://form.jotform.com/YOUR_OVERLAMNING_FORM_ID"; // Överlämning
+        case "Anteckning PL":
+            jotformBaseUrl = "https://form.jotform.com/241881987718374"; // Anteckning PL
             break;
         default:
             jotformBaseUrl = "https://form.jotform.com/233093939506362"; // Standard (om ingen matchning)
@@ -106,17 +106,57 @@ export function generateJotformLink(project, details, employee, formType) {
             break;
 
         case "Egenkontroller projektledare":
-            // ... Lägg till parametrar som är specifika för Egenkontroller projektledare
+            jotformBaseUrl = "https://form.jotform.com/233312151251339"; // egenkontroller projektledare
+            const paramsEgenkontrollProjektledare = new URLSearchParams(basicParams);  // Starta med de grundläggande parametrarna
+			if (project && project.Projektledare) {
+				paramsEgenkontrollProjektledare.append("projektledareEnvac", project.Projektledare);
+			    paramsEgenkontrollProjektledare.append("projektnamn", project.Projektnamn);
+			}
+
+
+            if (employee && employee["E-post"]) {
+                paramsEgenkontrollProjektledare.append("email", sanitizeText(employee["E-post"]));
+                paramsEgenkontrollProjektledare.append("telefonnummer", sanitizeText(employee.Telefonnummer));
+            }
+            return `${jotformBaseUrl}?${paramsEgenkontrollProjektledare.toString()}`;
             break;
+			
         case "Egenkontroll Funktionstest":
-            // ... Lägg till parametrar som är specifika för Egenkontroll Funktionstest
+            jotformBaseUrl = "https://form.jotform.com/250062390636352"; // Validering
+            const paramsValidering = new URLSearchParams(basicParams);  // Starta med de grundläggande parametrarna
+			if (project && project.Projektledare) {
+				paramsValidering.append("projektledareEnvac", project.Projektledare);
+			    paramsValidering.append("projektnamn", project.Projektnamn);
+			}
+
+
+            if (employee && employee["E-post"]) {
+                paramsValidering.append("email", sanitizeText(employee["E-post"]));
+                paramsValidering.append("telefonnummer", sanitizeText(employee.Telefonnummer));
+            }
+            return `${jotformBaseUrl}?${paramsValidering.toString()}`;
             break;
+			
         case "Servicebesiktning":
             // ... Lägg till parametrar som är specifika för Servicebesiktning
             break;
-        case "Överlämning Service":
-            // ... Lägg till parametrar som är specifika för Överlämning Service
+			
+        case "Anteckning PL":
+            jotformBaseUrl = "https://form.jotform.com/241881987718374"; // Anteckning PL
+            const paramsAnteckningPL = new URLSearchParams(basicParams);  // Starta med de grundläggande parametrarna
+			if (project && project.Projektledare) {
+				paramsAnteckningPL.append("projektledareEnvac", project.Projektledare);
+			    paramsAnteckningPL.append("projektnamn", project.Projektnamn);
+			}
+
+
+            if (employee && employee["E-post"]) {
+                paramsAnteckningPL.append("email", sanitizeText(employee["E-post"]));
+                paramsAnteckningPL.append("telefonnummer", sanitizeText(employee.Telefonnummer));
+            }
+            return `${jotformBaseUrl}?${paramsAnteckningPL.toString()}`;
             break;
+			
 		default:
 			jotformBaseUrl = "https://form.jotform.com/233093939506362"; // Standard
 			return `${jotformBaseUrl}?${basicParams.toString()}`; // Använd de grundläggande parametrarna
